@@ -181,7 +181,7 @@ gdp = long[long.indicator_code == "NY.GDP.PCAP.CD"].pivot(index="year", columns=
 - **Excluded {len(excluded)} indicators published under separate SIPRI terms** rather than CC BY 4.0, so the whole dataset is CC BY 4.0: {excluded_names}.
 
 ## Source & license
-World Bank, World Development Indicators, bulk download https://databank.worldbank.org/data/download/WDI_CSV.zip (release of {src_date}); catalog: https://datacatalog.worldbank.org/search/dataset/0037712. License: [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Please cite *World Bank, World Development Indicators* when you use the data. This dataset is not produced or endorsed by the World Bank. Build script: `build_wdi.py` by the dataset maintainer.
+World Bank, World Development Indicators, bulk download https://databank.worldbank.org/data/download/WDI_CSV.zip (release of {src_date}); catalog: https://datacatalog.worldbank.org/search/dataset/0037712. License: [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Please cite *World Bank, World Development Indicators* when you use the data. This dataset is not produced or endorsed by the World Bank. Build script: `fetch_wdi.py` / `build_wdi.py` in [kaggle-dataset-pipelines](https://github.com/tb91117/kaggle-dataset-pipelines) (open source).
 """
 
 fields_long = [
