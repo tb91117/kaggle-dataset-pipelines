@@ -178,7 +178,7 @@ Good for: load forecasting (hourly, with EIA's own day-ahead forecast as a bench
 - `*_adjusted`: EIA's cleaned series, where missing or implausible reported values are replaced by EIA imputations. **Use these for most analysis.**
 - `*_imputed_flag`: True where EIA imputed the adjusted value.
 - `demand_mw_adjusted_outlier_flag`: added by this dataset ({n_outliers:,} hours, {n_outliers / df.demand_mw_adjusted.notna().sum():.2%}): adjusted demand below 0.5x or above 1.5x the median of the same hour on the 14 surrounding days. Example: PJM's adjusted demand jumps by about 100 GW for one hour on 2020-07-13.
-- `ng_<source>_mw` (+ `_adjusted`, `_imputed_flag`): net generation by energy source. Positive = generation, negative = consumption (e.g. batteries and pumped storage when charging).
+- `ng_{{source}}_mw` (+ `_adjusted`, `_imputed_flag`): net generation by energy source. Positive = generation, negative = consumption (e.g. batteries and pumped storage when charging).
 
 Energy-source columns and the first month they have data (EIA added categories over time):
 
