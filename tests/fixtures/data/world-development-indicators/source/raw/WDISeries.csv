@@ -1,0 +1,1209 @@
+﻿Series Code,Topic,Indicator Name,Short definition,Long definition,Unit of measure,Periodicity,Base Period,Other notes,Aggregation method,Limitations and exceptions,Notes from original source,General comments,Source,Statistical concept and methodology,Development relevance,Related source links,Other web links,Related indicators,License Type
+AG.LND.AGRI.ZS,Environment: Land use,Agricultural land (% of land area),,"Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Arable land includes land defined by the FAO as land under temporary crops (double-cropped areas are counted once), temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. Land abandoned as a result of shifting cultivation is excluded. Land under permanent crops is land cultivated with crops that occupy the land for long periods and need not be replanted after each harvest, such as cocoa, coffee, and rubber. This category includes land under flowering shrubs, fruit trees, nut trees, and vines, but excludes land under trees grown for wood or timber. Permanent pasture is land used for five or more years for forage, including natural and cultivated crops.",% (share) of land area,Annual,,Areas of former states are included in the successor states.,Weighted average,"The data are collected by the Food and Agriculture Organization of the United Nations (FAO) from official national sources through annual questionnaires and are supplemented with information from official secondary data sources. The secondary sources cover official country data from websites of national ministries, national publications and related country data reported by various international organizations.. The FAO tries to impose standard definitions and reporting methods, but complete consistency across countries and over time is not possible. Thus, data on agricultural land in different climates may not be comparable. For example, permanent pastures are quite different in nature and intensity in African countries and dry Middle Eastern countries. Data on agricultural employment, in particular, should be used with caution. In many countries much agricultural employment is informal and unrecorded, including substantial work performed by women and children. To address some of these concerns, this indicator is heavily footnoted in the database in sources, definition, and coverage.",,,"FAO electronic files and web site, Food and Agriculture Organization of the United Nations (FAO), publisher: Food and Agriculture Organization of the United Nations (FAO)","Methodology: Agriculture is still a major sector in many economies, and agricultural activities provide developing countries with food and revenue. But agricultural activities also can degrade natural resources. Poor farming practices can cause soil erosion and loss of soil fertility. Efforts to increase productivity by using chemical fertilizers, pesticides, and intensive irrigation have environmental costs and health impacts. Excessive use of chemical fertilizers can alter the chemistry of soil. Pesticide poisoning is common in developing countries. And salinization of irrigated land diminishes soil fertility. Thus, inappropriate use of inputs for agricultural production has far-reaching effects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Agricultural land is also sometimes classified as irrigated and non-irrigated land. In arid and semi-arid countries agriculture is often confined to irrigated land, with very little farming possible in non-irrigated areas. Land abandoned as a result of shifting cultivation is excluded from Arable land.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data on agricultural land are valuable for conducting studies on a various perspectives concerning agricultural production, food security and for deriving cropping intensity among others uses. Agricultural land indicator, along with land-use indicators, can also elucidate the environmental sustainability of countries' agricultural practices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total land area does not include inland water bodies such as major rivers and lakes. Variations from year to year may be due to updated or revised data rather than to change in area.","Agricultural land covers more than one-third of the world's land area, with arable land representing less than one-third of agricultural land (about 10 percent of the world's land area). Agricultural land constitutes only a part of any country's total area, which can include areas not suitable for agriculture, such as forests, mountains, and inland water bodies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In many industrialized countries, agricultural land is subject to zoning regulations. In the context of zoning, agricultural land (or more properly agriculturally zoned land) refers to plots that may be used for agricultural activities, regardless of the physical type or quality of land.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FAO's agricultural land data contains a wide range of information on variables that are significant for: understanding the structure of a country's agricultural sector; making economic plans and policies for food security; deriving environmental indicators, including those related to investment in agriculture and data on gross crop area and net crop area which are useful for policy formulation and monitoring.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+There is no single correct mix of inputs to the agricultural land, as it is dependent on local climate, land quality, and economic development; appropriate levels and application rates vary by country and over time and depend on the type of crops, the climate and soils, and the production process used.",,,,CC BY-4.0
+AG.LND.FRST.ZS,Environment: Land use,Forest area (% of land area),,"Forest area (% of land area) is the share of total land area that is under natural or planted stands of trees of at least 5 meters in situ, whether productive or not, and excludes tree stands in agricultural production systems (for example, in fruit plantations and agroforestry systems) and trees in urban parks and gardens.",% (share) of land area,Annual,,The world and regional aggregate series do not include data from countries that no longer exist.,Weighted average,"FAO has been collecting and analyzing data on forest area since 1946. This is done at intervals of 5-10 years as part of the Global Forest Resources Assessment (FRA). FAO reports data for 229 countries and territories; for the remaining 56 small island states and territories where no information is provided, a report is prepared by FAO using existing information and a literature search. The data are aggregated at sub-regional, regional and global levels by the FRA team at FAO, and estimates are produced by straight summation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The lag between the reference year and the actual production of data series as well as the frequency of data production varies between countries. Deforested areas do not include areas logged but intended for regeneration or areas degraded by fuelwood gathering, acid precipitation, or forest fires. Negative numbers indicate an increase in forest area.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data includes areas with bamboo and palms; forest roads, firebreaks and other small open areas; forest in national parks, nature reserves and other protected areas such as those of specific scientific, historical, cultural or spiritual interest; windbreaks, shelterbelts and corridors of trees with an area of more than 0.5 hectares and width of more than 20 meters; plantations primarily used for forestry or protective purposes, such as rubber-wood plantations and cork oak stands. Data excludes tree stands in agricultural production systems, such as fruit plantations and agroforestry systems. Forest area also excludes trees in urban parks and gardens. The proportion of forest area to total land area is calculated and changes in the proportion are computed to identify trends.",,,"FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: https://www.fao.org/faostat/en/#data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO)","Methodology: Forest is determined both by the presence of trees and the absence of other predominant land uses. The trees should reach a minimum height of 5 meters in situ. Areas under reforestation that have not yet reached but are expected to reach a canopy cover of 10 percent and a tree height of 5 meters are included, as are temporarily unstocked areas, resulting from human intervention or natural causes, which are expected to regenerate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Food and Agriculture Organization (FAO) provides detail information on forest cover, and adjusted estimates of forest cover. The survey uses a uniform definition of forest. Although FAO provides a breakdown of forest cover between natural forest and plantation for developing countries, forest data used to derive this indicator data does not reflect that breakdown. Total land area does not include inland water bodies such as major rivers and lakes. Variations from year to year may be due to updated or revised data rather than to change in area. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The indicator is derived by dividing total area under forest of a country by country's total land area, and multiplying by 100.
+Statistical concept(s): Forest - Forests are lands of more than 0.5 hectares, with a tree canopy cover of more than 10 percent, which are not primarily under agricultural or urban land use. Forests are determined both by the presence of trees and the absence of other predominant land uses. The trees should be able to reach a minimum height of 5 meters in situ. Areas under reforestation which have yet to reach a crown density of 10 percent or tree height of 5 m are included, as are temporarily unstocked areas, resulting from human intervention or natural causes, that are expected to regenerate. The term specifically includes: forest nurseries and seed orchards that constitute an integral part of the forest; forest roads, firebreaks and other small open areas; forest in national parks, nature reserves and other protected areas such as those of specific scientific, historical, cultural or spiritual interest; windbreaks and shelterbelts of trees with an area of more than 0.5 ha and width of more than 20 m; plantations primarily used for forestry purposes, including rubberwood plantations and cork oak stands. The term specifically excludes trees planted primarily for agricultural production, for example in fruit plantations and agroforestry systems.","As threats to biodiversity mount, the international community is increasingly focusing on conserving diversity. Deforestation is a major cause of loss of biodiversity, and habitat conservation is vital for stemming this loss. Conservation efforts have focused on protecting areas of high biodiversity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On a global average, more than one-third of all forest is primary forest, i.e. forest of native species where there are no clearly visible indications of human activities and the ecological processes have not been significantly disturbed. Primary forests, in particular tropical moist forests, include the most species-rich, diverse terrestrial ecosystems. The decrease of forest area, .11 percent over a ten-year period, is largely due to reclassification of primary forest to ""other naturally regenerated forest"" because of selective logging and other human interventions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Destruction of rainforests remains a significant environmental problem Much of what remains of the world's rainforests is in the Amazon basin, where the Amazon Rainforest covers approximately 4 million square kilometers. The regions with the highest tropical deforestation rate are in Central America and tropical Asia. FAO estimates that the decrease of primary forest area, 0.4 percent over a ten-year period, is largely due to reclassification of primary forest to ""other naturally regenerated forest"" because of selective logging and other human interventions. Large-scale planting of trees is significantly reducing the net loss of forest area globally, and afforestation and natural expansion of forests in some countries and regions have reduced the net loss of forest area significantly at the global level.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forests cover about 31 percent of total land area of the world; the world's total forest area is just over 4 billion hectares. On a global average, more than one-third of all forest is primary forest, i.e. forest of native species where there are no clearly visible indications of human activities and the ecological processes have not been significantly disturbed. Primary forests, in particular tropical moist forests, include the most species-rich, diverse terrestrial ecosystems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+National parks, game reserves, wilderness areas and other legally established protected areas cover more than 10 percent of the total forest area in most countries and regions. FAO estimates that around 10 million people are employed in forest management and conservation - but many more are directly dependent on forests for their livelihoods. Close to 1.2 billion hectares of forest are managed primarily for the production of wood and non-wood forest products. An additional 25 percent of forest area is designated for multiple uses - in most cases including the production of wood and non-wood forest products. The area designated primarily for productive purposes has decreased by more than 50 million hectares since 1990 as forests have been designated for other purposes.",,,,CC BY-4.0
+BX.KLT.DINV.WD.GD.ZS,Economic Policy & Debt: Balance of payments: Capital & financial account,"Foreign direct investment, net inflows (% of GDP)",,"Foreign direct investment is the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments. This series shows net inflows (new investment inflows less disinvestment) in the reporting economy from foreign investors, and is divided by GDP.",,Annual,,Note: Data starting from 2005 are based on the sixth edition of the IMF's Balance of Payments Manual (BPM6).,Weighted average,"FDI data do not give a complete picture of international investment in an economy. Balance of payments data on FDI do not include capital raised locally, an important source of investment financing in some developing countries. In addition, FDI data omit nonequity cross-border transactions such as intra-unit flows of goods and services.
+
+The volume of global private financial flows reported by the World Bank generally differs from that reported by other sources because of differences in sources, classification of economies, and method used to adjust and disaggregate reported information. In addition, particularly for debt financing, differences may also reflect how some installments of the transactions and certain offshore issuances are treated.
+
+Data on equity flows are shown for all countries for which data are available.",,,"International Financial Statistics and Balance of Payments databases, International Monetary Fund (IMF);
+International Debt Statistics, World Bank (WB);
+World Bank GDP estimates, World Bank (WB);
+OECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)","Methodology: Data on equity flows are based on balance of payments data reported by the International Monetary Fund (IMF). Foreign direct investment (FDI) data are supplemented by the World Bank staff estimates using data from the United Nations Conference on Trade and Development (UNCTAD) and official national sources.
+
+The internationally accepted definition of FDI (from the sixth edition of the IMF's Balance of Payments Manual [2009]), includes the following components: equity investment, including investment associated with equity that gives rise to control or influence; investment in indirectly influenced or controlled enterprises; investment in fellow enterprises; debt (except selected debt); and reverse investment. The Framework for Direct Investment Relationships provides criteria for determining whether cross-border ownership results in a direct investment relationship, based on control and influence. Distinguished from other kinds of international investment, FDI is made to establish a lasting interest in or effective management control over an enterprise in another country. A lasting interest in an investment enterprise typically involves establishing warehouses, manufacturing facilities, and other permanent or long-term organizations abroad. Direct investments may take the form of greenfield investment, where the investor starts a new venture in a foreign country by constructing new operational facilities; joint venture, where the investor enters into a partnership agreement with a company abroad to establish a new enterprise; or merger and acquisition, where the investor acquires an existing enterprise abroad. The IMF suggests that investments should account for at least 10 percent of voting stock to be counted as FDI. In practice many countries set a higher threshold. Many countries fail to report reinvested earnings, and the definition of long-term loans differs among countries. BoP refers to Balance of Payments.","Private financial flows - equity and debt - account for the bulk of development finance. Equity flows comprise foreign direct investment (FDI) and portfolio equity. Debt flows are financing raised through bond issuance, bank lending, and supplier credits.",,,,CC BY-4.0
+EG.ELC.ACCS.ZS,Environment: Energy production & use,Access to electricity (% of population),,"Access to electricity is the percentage of population with access to electricity. Electrification data are collected from industry, national surveys and international sources.",% (share) of population,Annual,,,Population-weighted average,,,,"SDG 7.1.1 Electrification Dataset, World Bank (WB), uri: https://trackingsdg7.esmap.org/downloads, note: Data is downloaded from ESMAP website. Data is released when a new Tracking SDG7 report is released., publisher: World Bank (WB), date accessed: 2024-05-16, date published: 2023","Methodology: The World Bank’s Global Electrification Database (GED) compiles nationally representative household survey data, and occasionally census data, from sources going back as far as 1990. The database also incorporates data from the Socio-Economic Database for Latin America and the Caribbean (SEDLAC), Middle East and North Africa Poverty Database (MNAPOV) and the Europe and Central Asia Poverty Database (ECAPOV), which are based on similar surveys. At the time of this analysis, the GED contained 1,375 surveys for 149 countries in 1990-2021.","Maintaining reliable and secure electricity services while seeking to rapidly decarbonize power systems is a key challenge for countries throughout the world. More and more countries are becoming increasingly dependent on reliable and secure electricity supplies to underpin economic growth and community prosperity. This reliance is set to grow as more efficient and less carbon intensive forms of power are developed and deployed to help decarbonize economies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Energy is necessary for creating the conditions for economic growth. It is impossible to operate a factory, run a shop, grow crops or deliver goods to consumers without using some form of energy. Access to electricity is particularly crucial to human development as electricity is, in practice, indispensable for certain basic activities, such as lighting, refrigeration and the running of household appliances, and cannot easily be replaced by other forms of energy. Individuals' access to electricity is one of the most clear and un-distorted indications of a country's energy poverty status.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Electricity access is increasingly at the forefront of governments' preoccupations, especially in the developing countries. As a consequence, a lot of rural electrification programs and national electrification agencies have been created in these countries to monitor more accurately the needs and the status of rural development and electrification.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Use of energy is important in improving people's standard of living. But electricity generation also can damage the environment. Whether such damage occurs depends largely on how electricity is generated. For example, burning coal releases twice as much carbon dioxide - a major contributor to global warming - as does burning an equivalent amount of natural gas.",,,,CC BY-4.0
+EG.FEC.RNEW.ZS,Environment: Energy production & use,Renewable energy consumption (% of total final energy consumption),,Renewable energy consumption is the share of renewable energy in total final energy consumption.,% (share) of final energy consumption,Annual,,,Weighted average,,,,"IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser, publisher: International Energy Agency (IEA), date accessed: 2025-03-25","Methodology: The numerator includes the direct consumption of renewable energy sources plus the final consumption of gross electricity and heat estimated to have come from renewable sources, while the denominator is the total final energy consumption of all energy products.
+Statistical concept(s):",,,,,CC BY-4.0
+EG.USE.PCAP.KG.OE,Environment: Energy production & use,Energy use (kg of oil equivalent per capita),,"Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport.",kg of oil equivalent per capita,Annual,,,Weighted average,"The IEA makes these estimates in consultation with national statistical offices, oil companies, electric utilities, and national energy experts. The IEA occasionally revises its time series to reflect political changes, and energy statistics undergo continual changes in coverage or methodology as more detailed energy accounts become available. Breaks in series are therefore unavoidable.",,,"IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser, publisher: International Energy Agency (IEA), date accessed: 2025-03-25","Methodology: Total energy use refers to the use of primary energy before transformation to other end-use fuels (such as electricity and refined petroleum products). It includes energy from combustible renewables and waste - solid biomass and animal products, gas and liquid from biomass, and industrial and municipal waste. Biomass is any plant matter used directly as fuel or converted into fuel, heat, or electricity. World Bank population estimates are used to calculate per capita data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Energy data are compiled by the International Energy Agency (IEA). IEA data for economies that are not members of the Organisation for Economic Co-operation and Development (OECD) are based on national energy data adjusted to conform to annual questionnaires completed by OECD member governments.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data for combustible renewables and waste are often based on small surveys or other incomplete information and thus give only a broad impression of developments and are not strictly comparable across countries. The IEA reports include country notes that explain some of these differences. All forms of energy - primary energy and primary electricity - are converted into oil equivalents. A notional thermal efficiency of 33 percent is assumed for converting nuclear electricity into oil equivalents and 100 percent efficiency for converting hydroelectric power.","In developing economies growth in energy use is closely related to growth in the modern sectors - industry, motorized transport, and urban areas - but energy use also reflects climatic, geographic, and economic factors (such as the relative price of energy). Energy use has been growing rapidly in low- and middle-income economies, but high-income economies still use almost five times as much energy on a per capita basis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Governments in many countries are increasingly aware of the urgent need to make better use of the world's energy resources. Improved energy efficiency is often the most economic and readily available means of improving energy security and reducing greenhouse gas emissions.",,,,CC BY-4.0
+EN.GHG.CO2.PC.CE.AR5,Environment: Emissions,Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita),,"Total annual emissions of carbon dioxide (CO2), one of the six Kyoto greenhouse gases (GHG), from the agriculture, energy, waste, and industrial sectors, excluding LULUCF, standardized to carbon dioxide equivalent values divided by the economy's population. This measure excludes GHG fluxes caused by Land Use, Land-Use Change and Forestry (LULUCF), as these fluxes have larger uncertainties.",t CO2e/capita,Annual,,,Weighted average using population as weights,"Global GHG emissions are currently not directly measurable, but approaches for their estimation exist, and numerous sources exist to supply data for this indicator. Reputable scientific organizations produce these data for use for research, policy analysis, climate negotiations, and broader public communications. The estimated accuracy from fossil fuel combustion and industrial processes are quite high, as quantities of fossil fuels and other emissive materials (such as cement and steel) produced are well known. For these sectors, emissions estimates are roughly accurate to within 10% when aggregated to the global level and between 4% and 35% at the country level (Crippa et al., 2023). For non- combustion and non- industrial process emissions, the accuracy is lower. Agricultural emissions, for example, depend upon many factors including the type of crops grown and livestock raised, specific agricultural practices, and other climate and non-climate factors. For these emissions, the accuracy is lower—around 30% for CH4 and fluorinated gases (HFCs, PFCs, and SF6).",,,"EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: https://edgar.jrc.ec.europa.eu/dataset_ghg2024, publisher: JRC European Commission, date published: 2024;
+International Energy Agency (IEA), uri: https://edgar.jrc.ec.europa.eu/dataset_ghg2024, publisher: JRC European Commission, date published: 2024","Methodology: EDGAR compiles data from multiple authoritative sources, including: International Energy Agency (IEA) – Energy consumption data, United Nations Framework Convention on Climate Change (UNFCCC) – National GHG inventories, Food and Agriculture Organization (FAO) – Agricultural emissions, World Bank & National Statistics Offices – Socioeconomic and industrial data, Scientific Literature & IPCC Guidelines – Emission factors and methodologies. 
+
+
+
+
+
+EDGAR follows the IPCC (Intergovernmental Panel on Climate Change) Guidelines for National Greenhouse Gas Inventories to estimate emissions. The core equation is:
+
+
+
+
+
+?? =??×????
+
+
+
+
+
+Where:
+
+
+
+
+
+E = Total emissions (kg, tons, or CO2-equivalent)
+
+
+
+
+
+A = Activity data (e.g., fuel consumption, production levels)
+
+
+
+
+
+EF = Emission factor (kg of pollutant per unit of activity)
+
+
+
+
+
+
+
+
+
+
+
+Depending on the pollutant, different tiers of complexity are used:
+
+
+
+
+
+Tier 1 – Default IPCC emission factors (simple estimation)
+
+
+
+
+
+Tier 2 – Country/region-specific emission factors
+
+
+
+
+
+Tier 3 – Detailed process-based models (highest accuracy)","Anthropogenic (human-caused) emissions of global greenhouse gases, including carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O) and F-gases, lead to an increase of the concentration of greenhouse gases in the atmosphere, which in turn causes atmospheric warming by trapping heat in the atmosphere (greenhouse gas effect). Atmospheric warming leads to climatic changes causing more frequent and extreme weather events and higher temperatures globally, leading to large impacts across the globe and particularly in developing countries that often have a limited means to adapt and build resilience. The international scientific community has warned that emissions need to decline to net zero by the middle of the 21st century to limit global warming to well below a 2deg C increase and help avoid the most consequential climate change impacts. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Climate change is having a disproportionate impact on developing countries and if unabated will not only reverse past development progress and hinder poverty reduction but will also make future development more costly. Country level assessments of the potential climate change impacts on specific developing countries, performed as part of the World Bank’s Country Climate and Development Reports (CCDRs), show that climate change will have a significant impact on developing countries’ economies, ranging from about 0.5% of GDP for higher income developing countries to over 13% for the lowest income developing countries. The costs of partial adaptation to these changes will be significant as well -- ranging between 1 and 10% of developing countries’ GDP.",,,,CC BY-4.0
+FP.CPI.TOTL.ZG,Financial Sector: Exchange rates & prices,"Inflation, consumer prices (annual % growth)",,"Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly.",%,Annual,,,Median,,,,"International Financial Statistics database, International Monetary Fund (IMF)","Methodology: Consumer Prices Indices are compiled in accordance with international standards: Consumer Price Index Manual, 2020 or 2004 version. Specific information on how countries compile their CPI statistics can be found on the IMF website: https://dsbb.imf.org/
+Statistical concept(s): The conceptual basis of a consumer price index series is to measure the rate at which prices of consumption goods and services are changing from one period to another.","A general and continuing increase in an economy’s price level is called inflation. The increase in the average prices of goods and services in the economy should be distinguished from a change in the relative prices of individual goods and services. Generally accompanying an overall increase in the price level is a change in the structure of relative prices, but it is only the average increase, not the relative price changes, that constitutes inflation. A commonly used measure of inflation is the consumer price index, which measures the prices of a representative basket of goods and services purchased by a typical household. The consumer price index is usually calculated on the basis of periodic surveys of consumer prices. Other price indices are derived implicitly from indexes of current and constant price series.",,,,CC BY-4.0
+IT.CEL.SETS.P2,Infrastructure: Communications,Mobile cellular subscriptions (per 100 people),,"Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have been used during the last three months). The indicator applies to all mobile cellular subscriptions that offer voice communications. It excludes subscriptions via data cards or USB modems, subscriptions to public mobile data services, private trunked mobile radio, telepoint, radio paging and telemetry services.",number of subscriptions*100/population,Annual,,Please cite the International Telecommunication Union for third-party use of these data.,Weighted average,"Operators have traditionally been the main source of telecommunications data, so information on subscriptions has been widely available for most countries. This gives a general idea of access, but a more precise measure is the penetration rate - the share of households with access to telecommunications. During the past few years more information on information and communication technology use has become available from household and business surveys. Also important are data on actual use of telecommunications services. Ideally, statistics on telecommunications (and other information and communications technologies) should be compiled for all three measures: subscriptions, access, and use. The quality of data varies among reporting countries as a result of differences in regulations covering data provision and availability.
+
+Discrepancies between global and national figures may arise when countries use a different definition than the one used by ITU. For example, some countries do not include the number of ISDN channels when calculating the number of fixed telephone lines. Discrepancies may also arise in cases where the end of a fiscal year differs from that used by ITU, which is the end of December of every year. A number of countries have fiscal years that end in March or June of every year. Data are usually not adjusted but discrepancies in the definition, reference year or the break in comparability in between years are noted in a data note. For this reason, data are not always strictly comparable. Missing values are estimated by ITU.
+
+Mobile subscriptions include both analogue and digital cellular systems (IMT-2000 (Third Generation, 3G) and 4G subscriptions, but excludes mobile broadband subscriptions via data cards or USB modems. Subscriptions to public mobile data services, private trunked mobile radio, telepoint or radio paging, and telemetry services are also excluded, but all mobile cellular subscriptions that offer voice communications are included. Both postpaid and prepaid subscriptions are included.",,,"World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU)","Methodology: Refers to the subscriptions to a public mobile telephone service and provides access to Public Switched Telephone Network (PSTN) using cellular technology, including number of pre-paid SIM cards active during the past three months. This includes both analogue and digital cellular systems (IMT-2000 (Third Generation, 3G) and 4G subscriptions, but excludes mobile broadband subscriptions via data cards or USB modems. Subscriptions to public mobile data services, private trunked mobile radio, telepoint or radio paging, and telemetry services should also be excluded. This should include all mobile cellular subscriptions that offer voice communications.
+
+Data on mobile cellular subscribers are derived using administrative data that countries (usually the regulatory telecommunication authority or the Ministry in charge of telecommunications) regularly, and at least annually, collect from telecommunications operators.
+
+Data for this indicator are readily available for approximately 90 percent of countries, either through ITU's World Telecommunication Indicators questionnaires or from official information available on the Ministry or Regulator's website. For the rest, information can be aggregated through operators' data (mainly through annual reports) and complemented by market research reports.
+
+Mobile cellular subscriptions (per 100 people) indicator is derived by all mobile subscriptions divided by the country's population and multiplied by 100. For additional/latest information on sources and country notes, please also refer to: https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
+Statistical concept(s): Data can be collected from all licensed mobile-cellular operators in the country, and then aggregated at the country level. If retail mobile-cellular services are also provided by nonfacilities-based operators (i.e., mobile virtual network operators), care should be taken to avoid double counting. One difficulty that may arise is that operators may have different definitions of ‘active’ and therefore may not be able to provide the data according to the recommended definition (i.e., used in the last three months). This indicator can be divided by the population and multiplied by 100 to obtain mobile cellular subscriptions per 100 people.","The quality of an economy's infrastructure, including power and communications, is an important element in investment decisions for both domestic and foreign investors. Government effort alone is not enough to meet the need for investments in modern infrastructure; public-private partnerships, especially those involving local providers and financiers, are critical for lowering costs and delivering value for money. In telecommunications, competition in the marketplace, along with sound regulation, is lowering costs, improving quality, and easing access to services around the globe.
+
+Access to telecommunication services rose on an unprecedented scale over the past two decades. This growth was driven primarily by wireless technologies and liberalization of telecommunications markets, which have enabled faster and less costly network rollout. The International Telecommunication Union (ITU) estimates that there were about 6 billion mobile subscriptions globally in the early 2010s. No technology has ever spread faster around the world. Mobile communications have a particularly important impact in rural areas. The mobility, ease of use, flexible deployment, and relatively low and declining rollout costs of wireless technologies enable them to reach rural populations with low levels of income and literacy. The next billion mobile subscribers will consist mainly of the rural poor. Access is the key to delivering telecommunications services to people. If the service is not affordable to most people, goals of universal usage will not be met.
+
+Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service using cellular technology, which provide access to the public switched telephone network (PSTN) using cellular technology. It includes postpaid and prepaid subscriptions and includes analogue and digital cellular systems.
+
+Over the past decade new financing and technology, along with privatization and market liberalization, have spurred dramatic growth in telecommunications in many countries. With the rapid development of mobile telephony and the global expansion of the Internet, information and communication technologies are increasingly recognized as essential tools of development, contributing to global integration and enhancing public sector effectiveness, efficiency, and transparency.",,,,CC BY-4.0
+IT.NET.USER.ZS,Infrastructure: Communications,Individuals using the Internet (% of population),,"Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.",% of population,Annual,,Please cite the International Telecommunication Union for third-party use of these data.,Weighted average,"Operators have traditionally been the main source of telecommunications data, so information on subscriptions has been widely available for most countries. This gives a general idea of access, but a more precise measure is the penetration rate - the share of households with access to telecommunications. During the past few years more information on information and communication technology use has become available from household and business surveys. Also important are data on actual use of telecommunications services. Ideally, statistics on telecommunications (and other information and communications technologies) should be compiled for all three measures: subscriptions, access, and use. The quality of data varies among reporting countries as a result of differences in regulations covering data provision and availability.
+
+Discrepancies may also arise in cases where the end of a fiscal year differs from that used by ITU, which is the end of December of every year. A number of countries have fiscal years that end in March or June of every year.",,,"World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU), uri: https://datahub.itu.int/","Methodology: The Internet is a world-wide public computer network. It provides access to a number of communication services including the World Wide Web and carries email, news, entertainment and data files, irrespective of the device used (not assumed to be only via a computer - it may also be by mobile phone, PDA, games machine, digital TV etc.). Access can be via a fixed or mobile network. For additional/latest information on sources and country notes, please also refer to: https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
+Statistical concept(s): The number of in-scope individuals using the Internet is calculated by aggregating the weighted responses. The proportion of individuals using the Internet is expressed as a percentage and is calculated by dividing the total number of in-scope individuals using the Internet by the total number of in-scope individuals, and then multiplying the result by 100.","The digital and information revolution has changed the way the world learns, communicates, does business, and treats illnesses. New information and communications technologies (ICT) offer vast opportunities for progress in all walks of life in all countries - opportunities for economic growth, improved health, better service delivery, learning through distance education, and social and cultural advances.
+
+Today's smartphones and tablets have computer power equivalent to that of yesterday's computers and provide a similar range of functions. Device convergence is thus rendering the conventional definition obsolete.
+
+Comparable statistics on access, use, quality, and affordability of ICT are needed to formulate growth-enabling policies for the sector and to monitor and evaluate the sector's impact on development. Although basic access data are available for many countries, in most developing countries little is known about who uses ICT; what they are used for (school, work, business, research, government); and how they affect people and businesses. The global Partnership on Measuring ICT for Development is helping to set standards, harmonize information and communications technology statistics, and build statistical capacity in developing countries. However, despite significant improvements in the developing world, the gap between the ICT haves and have-nots remains.",,,,CC BY-4.0
+MS.MIL.XPND.CD,Public Sector: Defense & arms trade,Military expenditure (current USD),,"Military spending USD, in current prices (converted at the exchange rate for the given year)",USD current,Annual,,Data for some countries are based on partial or uncertain data or rough estimates. For additional details please refer to the military expenditure database on the SIPRI website: https://sipri.org/databases/milex,Weighted average,"SIPRI strives to compile reliable, consistent military expenditure data by assessing multiple sources, but accuracy depends on the quality and transparency of those sources. Challenges arise from two key issues: whether reported figures reflect actual spending and how closely they match SIPRI’s definition. While data is generally accurate in developed and many developing countries, weak governance, corruption, and secret transfers in others can lead to major discrepancies. SIPRI sometimes makes estimates, when sources conflict or lack coverage, introducing uncertainty, especially for countries like China or the UAE. Definitions also vary: official defense budgets may omit pensions, paramilitary forces, or extra- and off-budget spending such as resource funds or military commercial activities, which can be substantial but often untraceable, particularly in Africa, the Middle East, and parts of Asia. SIPRI notes these gaps in footnotes, but where figures cannot be obtained, estimates remain incomplete, limiting comparability across countries.",Use and distribution of these data are subject to Stockholm International Peace Research Institute (SIPRI) terms and conditions. SIPRI data may not be used for commercial purposes (as assessed by SIPRI) without a separate commercial license from SIPRI. Use of more than 10 percent of any SIPRI data set for non-commercial purposes (as assessed by SIPRI) must be directly authorized by SIPRI.,"Statistical concept(s): Although the lack of sufficiently detailed data makes it difficult to apply a common definition of military expenditure on a worldwide basis, SIPRI has adopted a definition as a guideline. Where possible, SIPRI military expenditure data include all current and capital expenditure on: (a) the armed forces, including peacekeeping forces; (b) defense ministries and other government agencies engaged in defense projects; (c) paramilitary forces, when judged to be trained and equipped for military operations; and (d) military space activities.
+
+This should include expenditure on: (i) personnel, including: salaries of military and civil personnel; b. retirement pensions of military personnel, and; social services for personnel; (ii) operations and maintenance; (iii) procurement; (iv) military research and development; (v) military infrastructure spending, including military bases; and (vi) military aid (in the military expenditure of the donor country). 
+
+SIPRI’s estimate of military aid includes financial contributions, training and operational costs, replacement costs of the military equipment stocks donated to recipients and payments to procure additional military equipment for the recipient. However, it does not include the estimated value of military equipment stocks donated.
+
+Civil defense and spending related to past military activities—like veterans’ benefits or demobilization—are excluded. Because many countries do not publish data detailed enough to perfectly match SIPRI’s definition, SIPRI often relies on national figures and prioritizes internal consistency over time rather than strict cross-country uniformity. As a result, SIPRI data are most reliable for analyzing trends rather than precise comparisons between countries, and users should consult footnotes for known deviations from the definition.","SIPRI Military Expenditure Database, Stockholm International Peace Research Institute (SIPRI), uri: https://www.sipri.org/databases","Methodology: Military expenditure data is collected from primary and secondary sources. Primary sources include official government publications such as national budgets, defense white papers, financial statistics, and responses to questionnaires from SIPRI, the UN, or the OSCE, as well as expert analyses of government budgets. Secondary sources draw on these primary materials and include international datasets produced by organizations like NATO and the IMF, as well as reference works such as the German Statistisches Jahrbuch, the Europa Yearbook, and Economist Intelligence Unit country reports. Other secondary sources are journals and newspapers. Historically, especially before 1988, secondary sources (notably IMF and UN statistics) were used more heavily due to limited availability of official national data. In recent years, the availability of primary government data has increased significantly.
+
+SIPRI uses government-reported military expenditure data as the baseline and only produces its own estimates when official data are incomplete or inconsistent across years. Estimates are created through detailed budget analysis or by merging overlapping data sources, giving priority to those that best fit SIPRI’s definition, are up-to-date, and provide continuous time series. Older pre-1988 data often required combining secondary sources like IMF GFS and UNSY, which differ in definitions (e.g., excluding military pensions).  SIPRI avoids making assumptions and does not estimate spending for countries lacking any official data. In SIPRI’s database, estimated values appear in blue, while figures considered uncertain, because of weak sources or volatile conditions, appear in red. For recent years, budget projections and deflator-based adjustments are common but flagged only when uncertainty is unusually high.
+
+SIPRI presents military expenditure data on a calendar-year basis (except for the U.S., which uses financial years) and converts figures to constant prices using national consumer price indices to reflect opportunity costs. Local-currency data are converted to US dollars using average market exchange rates. 
+
+Military spending as a share of GDP (“military burden”) is calculated using nominal local-currency values for both military expenditure and GDP. SIPRI also provides military spending as a share of total government expenditure, where IMF data permit. 
+
+For additional information, please refer to the SIPRI website: https://www.sipri.org/databases/milex","Although national defense is an important function of government and security from external threats that contributes to economic development, high military expenditures for defense or civil conflicts burden the economy and may impede growth. Data on military expenditures as a share of gross domestic product (GDP) are a rough indicator of the portion of national resources used for military activities and of the burden on the economy.
+
+As an ""input"" measure military expenditures are not directly related to the ""output"" of military activities, capabilities, or security. Comparisons of military spending among countries should take into account the many factors that influence perceptions of vulnerability and risk, including historical and cultural traditions, the length of borders that need defending, the quality of relations with neighbors, and the role of the armed forces in the body politic.
+
+Comparisons of military spending among countries should take into account the many factors that influence perceptions of vulnerability and risk, including historical and cultural traditions, the length of borders that need defending, the quality of relations with neighbors, and the role of the armed forces in the body politic.",,,,SIPRI terms and conditions
+MS.MIL.XPND.GD.ZS,Public Sector: Defense & arms trade,Military expenditure (% of GDP),,Military expenditure by country as percentage of gross domestic product,% of GDP,Annual,,,Weighted average,"SIPRI strives to compile reliable, consistent military expenditure data by assessing multiple sources, but accuracy depends on the quality and transparency of those sources. Challenges arise from two key issues: whether reported figures reflect actual spending and how closely they match SIPRI’s definition. While data is generally accurate in developed and many developing countries, weak governance, corruption, and secret transfers in others can lead to major discrepancies. SIPRI sometimes makes estimates, when sources conflict or lack coverage, introducing uncertainty, especially for countries like China or the UAE. Definitions also vary: official defense budgets may omit pensions, paramilitary forces, or extra- and off-budget spending such as resource funds or military commercial activities, which can be substantial but often untraceable, particularly in Africa, the Middle East, and parts of Asia. SIPRI notes these gaps in footnotes, but where figures cannot be obtained, estimates remain incomplete, limiting comparability across countries.",Use and distribution of these data are subject to Stockholm International Peace Research Institute (SIPRI) terms and conditions. SIPRI data may not be used for commercial purposes (as assessed by SIPRI) without a separate commercial license from SIPRI. Use of more than 10 percent of any SIPRI data set for non-commercial purposes (as assessed by SIPRI) must be directly authorized by SIPRI.,"Statistical concept(s): Although the lack of sufficiently detailed data makes it difficult to apply a common definition of military expenditure on a worldwide basis, SIPRI has adopted a definition as a guideline. Where possible, SIPRI military expenditure data include all current and capital expenditure on: (a) the armed forces, including peacekeeping forces; (b) defense ministries and other government agencies engaged in defense projects; (c) paramilitary forces, when judged to be trained and equipped for military operations; and (d) military space activities.
+
+This should include expenditure on: (i) personnel, including: salaries of military and civil personnel; b. retirement pensions of military personnel, and; social services for personnel; (ii) operations and maintenance; (iii) procurement; (iv) military research and development; (v) military infrastructure spending, including military bases; and (vi) military aid (in the military expenditure of the donor country). 
+
+SIPRI’s estimate of military aid includes financial contributions, training and operational costs, replacement costs of the military equipment stocks donated to recipients and payments to procure additional military equipment for the recipient. However, it does not include the estimated value of military equipment stocks donated.
+
+Civil defense and spending related to past military activities—like veterans’ benefits or demobilization—are excluded. Because many countries do not publish data detailed enough to perfectly match SIPRI’s definition, SIPRI often relies on national figures and prioritizes internal consistency over time rather than strict cross-country uniformity. As a result, SIPRI data are most reliable for analyzing trends rather than precise comparisons between countries, and users should consult footnotes for known deviations from the definition.","SIPRI Military Expenditure Database, Stockholm International Peace Research Institute (SIPRI), uri: https://www.sipri.org/databases","Methodology: Military expenditure data is collected from primary and secondary sources. Primary sources include official government publications such as national budgets, defense white papers, financial statistics, and responses to questionnaires from SIPRI, the UN, or the OSCE, as well as expert analyses of government budgets. Secondary sources draw on these primary materials and include international datasets produced by organizations like NATO and the IMF, as well as reference works such as the German Statistisches Jahrbuch, the Europa Yearbook, and Economist Intelligence Unit country reports. Other secondary sources are journals and newspapers. Historically, especially before 1988, secondary sources (notably IMF and UN statistics) were used more heavily due to limited availability of official national data. In recent years, the availability of primary government data has increased significantly.
+
+SIPRI uses government-reported military expenditure data as the baseline and only produces its own estimates when official data are incomplete or inconsistent across years. Estimates are created through detailed budget analysis or by merging overlapping data sources, giving priority to those that best fit SIPRI’s definition, are up-to-date, and provide continuous time series. Older pre-1988 data often required combining secondary sources like IMF GFS and UNSY, which differ in definitions (e.g., excluding military pensions).  SIPRI avoids making assumptions and does not estimate spending for countries lacking any official data. In SIPRI’s database, estimated values appear in blue, while figures considered uncertain, because of weak sources or volatile conditions, appear in red. For recent years, budget projections and deflator-based adjustments are common but flagged only when uncertainty is unusually high.
+
+SIPRI presents military expenditure data on a calendar-year basis (except for the U.S., which uses financial years) and converts figures to constant prices using national consumer price indices to reflect opportunity costs. Local-currency data are converted to US dollars using average market exchange rates. 
+
+Military spending as a share of GDP (“military burden”) is calculated using nominal local-currency values for both military expenditure and GDP. SIPRI also provides military spending as a share of total government expenditure, where IMF data permit. 
+
+For additional information, please refer to the SIPRI website: https://www.sipri.org/databases/milex","Although national defense is an important function of government and security from external threats that contributes to economic development, high military expenditures for defense or civil conflicts burden the economy and may impede growth. Data on military expenditures as a share of gross domestic product (GDP) are a rough indicator of the portion of national resources used for military activities and of the burden on the economy.
+
+As an ""input"" measure military expenditures are not directly related to the ""output"" of military activities, capabilities, or security. Comparisons of military spending among countries should take into account the many factors that influence perceptions of vulnerability and risk, including historical and cultural traditions, the length of borders that need defending, the quality of relations with neighbors, and the role of the armed forces in the body politic.
+
+Comparisons of military spending among countries should take into account the many factors that influence perceptions of vulnerability and risk, including historical and cultural traditions, the length of borders that need defending, the quality of relations with neighbors, and the role of the armed forces in the body politic.",,,,SIPRI terms and conditions
+NE.TRD.GNFS.ZS,Economic Policy & Debt: National accounts: Shares of GDP & other,Trade (% of GDP),,Trade is the sum of exports and imports of goods and services. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.,%,Annual,,,Weighted average,,,,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)","Methodology: National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to the expenditure approach used to calculate GDP, which focuses on the total amount of spending on final goods and services within an economy over a specific period. Unlike the production approach, which looks at the supply side by summing the value of output produced by all sectors, the expenditure approach looks at the demand side by summing all expenditures. This demand-side analysis provides insights into the spending behaviors of different sectors, including households, businesses, the government, and foreign entities. Also, by breaking down expenditures into categories like consumption, investment, government spending, and net exports, it helps identify which components are driving or hindering economic growth. This approach can thus be used to assess the effectiveness of fiscal and monetary policies. Overall, the expenditure approach is crucial for understanding the dynamics of an economy, guiding policy decisions, and providing a comprehensive view of economic activity from the perspective of total spending.",,,,CC BY-4.0
+NV.AGR.TOTL.ZS,Economic Policy & Debt: National accounts: Shares of GDP & other,"Agriculture, forestry, and fishing, value added (% of GDP)",,"Agriculture, forestry, and fishing corresponds to ISIC (Rev. 4) divisions 01-03 and includes the exploitation of vegetal and animal natural resources, comprising the activities of growing of crops, raising and breeding of animals, harvesting of timber and other plants, animals or animal products from a farm or their natural habitats.Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by the total value of output produced and deducting the total value of intermediate consumption of goods and services used to produce that output. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period. Note: For VAB countries, gross value added at factor cost is used as the denominator.",%,Annual,,"Note: Data for OECD countries are based on ISIC, revision 4.",Weighted average,"Among the difficulties faced by compilers of national accounts is the extent of unreported economic activity in the informal or secondary economy. In developing countries a large share of agricultural output is either not exchanged (because it is consumed within the household) or not exchanged for money. Agricultural production often must be estimated indirectly, using a combination of methods involving estimates of inputs, yields, and area under cultivation. This approach sometimes leads to crude approximations that can differ from the true values over time and across crops for reasons other than climate conditions or farming techniques. Similarly, agricultural inputs that cannot easily be allocated to specific outputs are frequently ""netted out"" using equally crude and ad hoc approximations.",,,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)","Methodology: National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to the production approach (or output approach) used to calculate GDP, which gives detailed breakdown of the economy by sectors, providing valuable insights into the structure of an economy and its key drivers of growth. It helps in identifying which sectors are expanding or contracting, information that is crucial for policymakers when designing economic strategies and interventions. Additionally, by focusing on the production side, it reflects the supply conditions of an economy, which can be particularly important when analyzing issues like productivity and competitiveness.",,,,CC BY-4.0
+NV.IND.TOTL.ZS,Economic Policy & Debt: National accounts: Shares of GDP & other,"Industry, including construction, value added (% of GDP)",,"Industry (including construction) corresponds to ISIC (Rev.4) divisions 05-43. It is comprised of mining, manufacturing, construction, electricity, water, and gas industries. Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by the total value of output produced and deducting the total value of intermediate consumption of goods and services used to produce that output. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.",%,Annual,,"Note: Data for OECD countries are based on ISIC, revision 4.",Weighted average,"Ideally, industrial output should be measured through regular censuses and surveys of firms. But in most developing countries such surveys are infrequent, so earlier survey results must be extrapolated using an appropriate indicator. The choice of sampling unit, which may be the enterprise (where responses may be based on financial records) or the establishment (where production units may be recorded separately), also affects the quality of the data. Moreover, much industrial production is organized in unincorporated or owner-operated ventures that are not captured by surveys aimed at the formal sector. Even in large industries, where regular surveys are more likely, evasion of excise and other taxes and nondisclosure of income lower the estimates of value added. Such problems become more acute as countries move from state control of industry to private enterprise, because new firms and growing numbers of established firms fail to report. In accordance with the System of National Accounts, output should include all such unreported activity as well as the value of illegal activities and other unrecorded, informal, or small-scale operations. Data on these activities need to be collected using techniques other than conventional surveys of firms.",,,"Country official statistics, National Statistical Offices (NSOs);
+National Accounts data files, Central Banks;
+Staff estimates, World Bank (WB)","Methodology: National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to the production approach (or output approach) used to calculate GDP, which gives detailed breakdown of the economy by sectors, providing valuable insights into the structure of an economy and its key drivers of growth. It helps in identifying which sectors are expanding or contracting, information that is crucial for policymakers when designing economic strategies and interventions. Additionally, by focusing on the production side, it reflects the supply conditions of an economy, which can be particularly important when analyzing issues like productivity and competitiveness.",,,,CC BY-4.0
+NV.SRV.TOTL.ZS,Economic Policy & Debt: National accounts: Shares of GDP & other,"Services, value added (% of GDP)",,"Services industries correspond to ISIC (Rev. 4) divisions 45-99 and includes wholesale and retail trade, repair of motor vehicles, hotels and restaurants, transport, storage and communication, financial intermediation, real estate, renting and business activities, public administration and defence, compulsory social security, education, health and social work, other community, social and personal service activities, private households with employed persons, and extra-territorial organizations and bodies. Value added is the contribution to the economy by a producer or an industry or an institutional sector, which is estimated by the total value of output produced and deducting the total value of intermediate consumption of goods and services used to produce that output. This indicator is expressed as a percentage of Gross Domestic Product (GDP) which is the total income earned through the production of goods and services in an economic territory during an accounting period.",%,Annual,,,Weighted average,"In the services industry the many self-employed workers and one-person businesses are sometimes difficult to locate, and they have little incentive to respond to surveys, let alone to report their full earnings. Compounding these problems are the many forms of economic activity that go unrecorded, including the work that women and children do for little or no pay.",,,"Country official statistics, National Statistical Offices (NSOs);
+National Accounts data files, Central Banks;
+Staff estimates, World Bank (WB)","Methodology: National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to the production approach (or output approach) used to calculate GDP, which gives detailed breakdown of the economy by sectors, providing valuable insights into the structure of an economy and its key drivers of growth. It helps in identifying which sectors are expanding or contracting, information that is crucial for policymakers when designing economic strategies and interventions. Additionally, by focusing on the production side, it reflects the supply conditions of an economy, which can be particularly important when analyzing issues like productivity and competitiveness.",,,,CC BY-4.0
+NY.GDP.MKTP.CD,Economic Policy & Debt: National accounts: US$ at current prices: Aggregate indicators,GDP (current US$),,"Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.",current US$,Annual,,,Gap-filled total,"Gross domestic product (GDP), though widely tracked, may not always be the most relevant summary of aggregated economic performance for all economies, especially when production occurs at the expense of consuming capital stock.
+
+
+
+
+
+
+
+
+
+While GDP estimates based on the production approach are generally more reliable than estimates compiled from the income or expenditure side, different countries use different definitions, methods, and reporting standards. World Bank staff review the quality of national accounts data and sometimes make adjustments to improve consistency with international guidelines. Nevertheless, significant discrepancies remain between international standards and actual practice. Many statistical offices, especially those in developing countries, face severe limitations in the resources, time, training, and budgets required to produce reliable and comprehensive series of national accounts statistics.
+
+
+
+
+
+
+
+
+
+Among the difficulties faced by compilers of national accounts is the extent of unreported economic activity in the informal or secondary economy. In developing countries a large share of agricultural output is either not exchanged (because it is consumed within the household) or not exchanged for money.",,,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)","Methodology: National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to national accounts aggregates. Gross Domestic Product (GDP), Gross National Income (GNI), and other aggregates provide a snapshot of the size and health of an economy by measuring the total economic activity within a country. They can thus be used by policymakers to design and implement economic policies, as they reflect the overall economic performance and can indicate the need for intervention in certain areas. Aggregates also allow for comparisons between different economies, which can be useful for trade negotiations, investment decisions, and economic benchmarking. By examining aggregates over time, economists and analysts can identify trends, cycles, and potential areas of concern within an economy, and investors can use national accounts aggregates to assess the potential risks and returns of investing in a particular country. Overall, national accounts aggregates are fundamental tools for economic analysis, policy formulation, and decision-making at both the national and international levels.",,,,CC BY-4.0
+NY.GDP.MKTP.KD.ZG,Economic Policy & Debt: National accounts: Growth rates,GDP (annual % growth),,"Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator denotes the percentage change over each previous year of the constant price (base year 2015) series in United States dollars.",%,Annual,,,Weighted average,"Each industry's contribution to growth in the economy's output is measured by growth in the industry's value added. In principle, value added in constant prices can be estimated by measuring the quantity of goods and services produced in a period, valuing them at an agreed set of base year prices, and subtracting the cost of intermediate inputs, also in constant prices. This double-deflation method requires detailed information on the structure of prices of inputs and outputs.
+
+
+
+
+
+
+
+
+
+In many industries, however, value added is extrapolated from the base year using single volume indexes of outputs or, less commonly, inputs. Particularly in the services industries, including most of government, value added in constant prices is often imputed from labor inputs, such as real wages or number of employees. In the absence of well defined measures of output, measuring the growth of services remains difficult.
+
+
+
+
+
+
+
+
+
+Moreover, technical progress can lead to improvements in production processes and in the quality of goods and services that, if not properly accounted for, can distort measures of value added and thus of growth. When inputs are used to estimate output, as for nonmarket services, unmeasured technical progress leads to underestimates of the volume of output. Similarly, unmeasured improvements in quality lead to underestimates of the value of output and value added. The result can be underestimates of growth and productivity improvement and overestimates of inflation.
+
+
+
+
+
+
+
+
+
+Informal economic activities pose a particular measurement problem, especially in developing countries, where much economic activity is unrecorded. A complete picture of the economy requires estimating household outputs produced for home use, sales in informal markets, barter exchanges, and illicit or deliberately unreported activities. The consistency and completeness of such estimates depend on the skill and methods of the compiling statisticians.
+
+
+
+
+
+
+
+
+
+Rebasing of national accounts can alter the measured growth rate of an economy and lead to breaks in series that affect the consistency of data over time. When countries rebase their national accounts, they update the weights assigned to various components to better reflect current patterns of production or uses of output. The new base year should represent normal operation of the economy - it should be a year without major shocks or distortions. Some developing countries have not rebased their national accounts for many years. Using an old base year can be misleading because implicit price and volume weights become progressively less relevant and useful.
+
+
+
+
+
+
+
+
+
+To obtain comparable series of constant price data for computing aggregates, the World Bank rescales GDP and value added by industrial origin to a common reference year. Because rescaling changes the implicit weights used in forming regional and income group aggregates, aggregate growth rates are not comparable with those from earlier editions with different base years. Rescaling may result in a discrepancy between the rescaled GDP and the sum of the rescaled components. To avoid distortions in the growth rates, the discrepancy is left unallocated. As a result, the weighted average of the growth rates of the components generally does not equal the GDP growth rate.",,,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)","Methodology: National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to national accounts aggregates. Gross Domestic Product (GDP), Gross National Income (GNI), and other aggregates provide a snapshot of the size and health of an economy by measuring the total economic activity within a country. They can thus be used by policymakers to design and implement economic policies, as they reflect the overall economic performance and can indicate the need for intervention in certain areas. Aggregates also allow for comparisons between different economies, which can be useful for trade negotiations, investment decisions, and economic benchmarking. By examining aggregates over time, economists and analysts can identify trends, cycles, and potential areas of concern within an economy, and investors can use national accounts aggregates to assess the potential risks and returns of investing in a particular country. Overall, national accounts aggregates are fundamental tools for economic analysis, policy formulation, and decision-making at both the national and international levels.",,,,CC BY-4.0
+NY.GDP.PCAP.CD,Economic Policy & Debt: National accounts: US$ at current prices: Aggregate indicators,GDP per capita (current US$),,"Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general population to achieve a per capita estimate.This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.",current US$,Annual,,,Weighted average,,,,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)","Methodology: National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/ Per capita estimates are divided by the total population.
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to national accounts aggregates. Gross Domestic Product (GDP), Gross National Income (GNI), and other aggregates provide a snapshot of the size and health of an economy by measuring the total economic activity within a country. They can thus be used by policymakers to design and implement economic policies, as they reflect the overall economic performance and can indicate the need for intervention in certain areas. Aggregates also allow for comparisons between different economies, which can be useful for trade negotiations, investment decisions, and economic benchmarking. By examining aggregates over time, economists and analysts can identify trends, cycles, and potential areas of concern within an economy, and investors can use national accounts aggregates to assess the potential risks and returns of investing in a particular country. Overall, national accounts aggregates are fundamental tools for economic analysis, policy formulation, and decision-making at both the national and international levels.",,,,CC BY-4.0
+NY.GDP.PCAP.PP.KD,Economic Policy & Debt: Purchasing power parity,"GDP per capita, PPP (constant 2021 international $)",,"This indicator provides values for gross domestic product (GDP) per person expressed in constant international dollars, converted by purchasing power parities (PPPs). PPPs account for the different price levels across countries and thus PPP-based comparisons of economic output are more appropriate for comparing the output of economies and the average material well-being of their inhabitants than exchange-rate based comparisons. 
+
+Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general population to achieve a per capita estimate. This indicator is expressed in constant prices, meaning the series has been adjusted to account for price changes over time. The reference year for this adjustment is 2021. The PPP conversion factor is a currency conversion factor and a spatial price deflator. PPPs convert different currencies to a common currency and, in the process of conversion, equalize their purchasing power by eliminating the differences in price levels between countries, thereby allowing volume or output comparisons of GDP and its expenditure components.",Constant 2021 international $,Annual,,,Weighted average,,,,"International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;
+The Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;
+The OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;
+Staff estimates, World Bank (WB);
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+World Economic Outlook database, International Monetary Fund (IMF)","Methodology: The International Comparison Program (ICP) estimates PPPs for the world’s countries. The ICP is conducted as a global partnership of countries, multilateral agencies, and academia. The recent 2021 ICP comparison covered 176 countries, including 49 Eurostat-OECD countries. For countries that have not participated in ICP comparisons, the PPP are imputed based on a regression model. ICP estimated PPPs cover years from 2011 to 2021. WDI extrapolates 2011 PPPs for years earlier years, and 2021 PPPs for later years. For the member countries of Eurostat-OECD PPP Programme, PPP conversion factors are periodically updated based on the organizations’ databases. 
+
+National accounts are compiled in accordance with international standards: System of National Accounts, 2008 or 1993 versions. Specific information on how countries compile their national accounts can be found on the IMF website: https://dsbb.imf.org/  Linked series have been smoothed to remove breaks resulting from changes in base years, data sources or compilation methods. The linking is performed using historical nominal growth rates from archived WDI databases.
+
+Statistical concept(s): PPPs are primarily used to convert the national accounts data of economies, such as GDP and its expenditure components, into a common currency.  In the process of conversion, they control for differences in the price levels of economies, and thus equalize purchasing power. PPP-based comparisons of economic output differ from market exchange rate-based comparisons as the latter do not distinguish between the relative price levels of different items in economies. Overall price levels are normally higher in higher-income economies than they are in lower-income economies (Balassa-Samuelson effect), mostly because of the large differences in price levels for non-traded products. If no account is taken of the larger price level differences for non-traded products when converting GDP to a common currency, the size of higher-income economies with high price levels will be overstated and the size of lower-income economies with low price levels will be understated. No distinction is made between traded products and non-traded products when market exchange rates are used to convert GDP to a common currency: the rate is the same for all products. PPP-converted GDP does not have this bias because PPPs account for the different price levels of traded products and non-traded products. Thus, PPPs are more appropriate for comparing the output of economies and the average material well-being of their inhabitants and are also less impacted by the potential volatility of market exchange rates. PPPs are calculated by the International Comparison Program (ICP) based on the prices of goods and services within an economy and national accounts expenditures. 
+
+The  conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","PPPs are used to convert national accounts data from different countries, such as GDP and its expenditure components, into a common currency, while also eliminating the effect of price level differences between countries. PPPs are also used to derive price level indexes (PLIs), the ratio of a country’s PPP to its market exchange rate, to directly compare price levels across countries.
+The PPP-based expenditures to which they give rise are primarily used to make spatial comparisons of volume and per capita consumption or levels of GDP and its expenditure components across countries.  PPP-based indicators are used for national, regional, and global policy making and analysis across the socioeconomic spectrum from poverty and inequality, to health and education, to energy and climate, through to economic growth, labor, productivity, trade, competitiveness, and infrastructure. A number of Sustainable Development Goals use PPP-based indicators to measure development progress.
+
+This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to national accounts aggregates. Gross Domestic Product (GDP), Gross National Income (GNI), and other aggregates provide a snapshot of the size and health of an economy by measuring the total economic activity within a country. They can thus be used by policymakers to design and implement economic policies, as they reflect the overall economic performance and can indicate the need for intervention in certain areas. Aggregates also allow for comparisons between different economies, which can be useful for trade negotiations, investment decisions, and economic benchmarking. By examining aggregates over time, economists and analysts can identify trends, cycles, and potential areas of concern within an economy, and investors can use national accounts aggregates to assess the potential risks and returns of investing in a particular country. Overall, national accounts aggregates are fundamental tools for economic analysis, policy formulation, and decision-making at both the national and international levels.",,,,CC BY-4.0
+NY.GNP.PCAP.CD,Economic Policy & Debt: National accounts: Atlas GNI & GNI per capita,"GNI per capita, Atlas method (current US$)",,"Gross national income is the total income earned by all residents within an economic territory during an accounting period. It is equal to gross domestic product plus earned income receivable from abroad minus earned income payable abroad. This figure is converted to U.S. dollars using the World Bank Atlas method, and divided by the midyear population. GNI, calculated in national currency, is usually converted to U.S. dollars at official exchange rates for comparisons across economies, although an alternative rate is used when the official exchange rate is judged to diverge by an exceptionally large margin from the rate actually applied in international transactions. To smooth fluctuations in prices and exchange rates, a special Atlas method of conversion is used by the World Bank. This applies a conversion factor that averages the exchange rate for a given year and the two preceding years, adjusted for differences in rates of inflation between the country, and through 2000, the G-5 countries (France, Germany, Japan, the United Kingdom, and the United States). From 2001, these countries include the Euro area, Japan, the United Kingdom, and the United States. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.",current US$,Annual,,,Weighted average,,,,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)","Methodology: The World Bank's official estimates of the size of economies and country classifications by income level are based on Gross National Income (GNI) per capita. For cross-national comparisons, estimates are converted from local currency units (LCU) to current U.S. dollars using the Atlas method, referring to a former World Bank publication called the Atlas of Global Development. The Atlas method smooths exchange rate fluctuations using a three-year moving average, price-adjusted conversion factor. The USD estimate of GNI per capita is derived by applying the Atlas conversion factor to estimates measured in LCU.
+Statistical concept(s): The conceptual elements of the SNA (System of National Accounts) measure what takes place in the economy, between which agents, and for what purpose. At the heart of the SNA is the production of goods and services. These may be used for consumption in the period to which the accounts relate or may be accumulated for use in a later period. In simple terms, the amount of value added generated by production represents GDP. The income corresponding to GDP is distributed to the various agents or groups of agents as income and it is the process of distributing and redistributing income that allows one agent to consume the goods and services produced by another agent or to acquire goods and services for later consumption. The way in which the SNA captures this pattern of economic flows is to identify the activities concerned by recognizing the institutional units in the economy and by specifying the structure of accounts capturing the transactions relevant to one stage or another of the process by which goods and services are produced and ultimately consumed.","This indicator is related to the national accounts, which are critical for understanding and managing a country's economy. They provide a framework for the analysis of economic performance. National accounts are the basis for estimating the Gross Domestic Product (GDP) and Gross National Income (GNI), which are the most widely used indicator of economic performance. They are essential for government policymakers, providing the data needed to design and assess fiscal and monetary policies; and are also used by businesses and investors to assess the economic climate and make investment decisions. NAS enable comparison between economies, which is crucial for international trade, investment decisions, and economic competitiveness. More specifically, this indicator is related to national accounts aggregates. Gross Domestic Product (GDP), Gross National Income (GNI), and other aggregates provide a snapshot of the size and health of an economy by measuring the total economic activity within a country. They can thus be used by policymakers to design and implement economic policies, as they reflect the overall economic performance and can indicate the need for intervention in certain areas. Aggregates also allow for comparisons between different economies, which can be useful for trade negotiations, investment decisions, and economic benchmarking. By examining aggregates over time, economists and analysts can identify trends, cycles, and potential areas of concern within an economy, and investors can use national accounts aggregates to assess the potential risks and returns of investing in a particular country. Overall, national accounts aggregates are fundamental tools for economic analysis, policy formulation, and decision-making at both the national and international levels.",,,,CC BY-4.0
+SE.PRM.ENRR,Education: Participation,"School enrollment, primary (% gross)",,"Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Primary education provides children with basic reading, writing, and mathematics skills along with an elementary understanding of such subjects as history, geography, natural science, social science, art, and music.",% of population in the 5-year age group immediately following preprimary education,Annual,,,Weighted average,"Enrollment indicators are based on annual school surveys, but do not necessarily reflect actual attendance or dropout rates during the year. Also, the length of education differs across countries and can influence enrollment rates, although the International Standard Classification of Education (ISCED) tries to minimize the difference. For example, a shorter duration for primary education tends to increase the rate; a longer one to decrease it (in part because older children are more at risk of dropping out). Moreover, age at enrollment may be inaccurately estimated or misstated, especially in communities where registration of births is not strictly enforced.",,,"Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02","Methodology: Gross enrollment ratio for primary school is calculated by dividing the number of students enrolled in primary education regardless of age by the population of the age group which officially corresponds to primary education, and multiplying by 100. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data on education are collected by the UNESCO Institute for Statistics from official responses to its annual education survey. All the data are mapped to the International Standard Classification of Education (ISCED) to ensure the comparability of education programs at the international level. The current version was formally adopted by UNESCO Member States in 2011. Population data are drawn from the United Nations Population Division. Using a single source for population data standardizes definitions, estimations, and interpolation methods, ensuring a consistent methodology across countries and minimizing potential enumeration problems in national censuses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The reference years reflect the school year for which the data are presented. In some countries the school year spans two calendar years (for example, from September 2010 to June 2011); in these cases the reference year refers to the year in which the school year ended (2011 in the example).
+Statistical concept(s): Gross enrollment ratios indicate the capacity of each level of the education system, but a high ratio may reflect a substantial number of overage children enrolled in each grade because of repetition or late entry rather than a successful education system.","Primary education is fundamental to future educational success and opens pathways for continued advancement. This indicator measures the overall rate of participation in primary education, signifying the education system's ability to enroll students within a specific age cohort.",,,,CC BY-4.0
+SE.SEC.ENRR,Education: Participation,"School enrollment, secondary (% gross)",,"Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Secondary education completes the provision of basic education that began at the primary level, and aims at laying the foundations for lifelong learning and human development, by offering more subject- or skill-oriented instruction using more specialized teachers.",% of population in the 5-year age group immediately following primary education,Annual,,,Weighted average,"Enrollment indicators are based on annual school surveys, but do not necessarily reflect actual attendance or dropout rates during the year. Also, the length of education differs across countries and can influence enrollment rates, although the International Standard Classification of Education (ISCED) tries to minimize the difference. For example, a shorter duration for primary education tends to increase the rate; a longer one to decrease it (in part because older children are more at risk of dropping out). Moreover, age at enrollment may be inaccurately estimated or misstated, especially in communities where registration of births is not strictly enforced.",,,"Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02","Methodology: Gross enrollment ratio for secondary school is calculated by dividing the number of students enrolled in secondary education regardless of age by the population of the age group which officially corresponds to secondary education, and multiplying by 100. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data on education are collected by the UNESCO Institute for Statistics from official responses to its annual education survey. All the data are mapped to the International Standard Classification of Education (ISCED) to ensure the comparability of education programs at the international level. The current version was formally adopted by UNESCO Member States in 2011. Population data are drawn from the United Nations Population Division. Using a single source for population data standardizes definitions, estimations, and interpolation methods, ensuring a consistent methodology across countries and minimizing potential enumeration problems in national censuses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The reference years reflect the school year for which the data are presented. In some countries the school year spans two calendar years (for example, from September 2010 to June 2011); in these cases the reference year refers to the year in which the school year ended (2011 in the example).
+Statistical concept(s): Gross enrollment ratios indicate the capacity of each level of the education system, but a high ratio may reflect a substantial number of overage children enrolled in each grade because of repetition or late entry rather than a successful education system.","Secondary education acts as a critical intermediary that not only builds upon the foundational knowledge acquired in primary education but also equips students for various pathways, including immediate entry into the workforce, further education in postsecondary non-tertiary institutions, or advancement to higher education. This indicator assesses the aggregate participation rate in secondary education, reflecting the education system's capacity to enroll students within a designated age group.",,,,CC BY-4.0
+SE.TER.ENRR,Education: Participation,"School enrollment, tertiary (% gross)",,"Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that officially corresponds to the level of education shown. Tertiary education, whether or not to an advanced research qualification, normally requires, as a minimum condition of admission, the successful completion of education at the secondary level.",% of population in the 5-year age group immediately following upper secondary education,Annual,,,Weighted average,"Enrollment indicators are based on annual school surveys, but do not necessarily reflect actual attendance or dropout rates during the year. Also, the length of education differs across countries and can influence enrollment rates, although the International Standard Classification of Education (ISCED) tries to minimize the difference. For example, a shorter duration for primary education tends to increase the rate; a longer one to decrease it (in part because older children are more at risk of dropping out). Moreover, age at enrollment may be inaccurately estimated or misstated, especially in communities where registration of births is not strictly enforced.",,,"Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), type: Bulk file (csv), date accessed: 2026-03-19, date published: 2026-02","Methodology: Gross enrollment ratio for tertiary school is calculated by dividing the number of students enrolled in tertiary education regardless of age by the population of the age group which officially corresponds to tertiary education, and multiplying by 100. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data on education are collected by the UNESCO Institute for Statistics from official responses to its annual education survey. All the data are mapped to the International Standard Classification of Education (ISCED) to ensure the comparability of education programs at the international level. The current version was formally adopted by UNESCO Member States in 2011. Population data are drawn from the United Nations Population Division. Using a single source for population data standardizes definitions, estimations, and interpolation methods, ensuring a consistent methodology across countries and minimizing potential enumeration problems in national censuses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The reference years reflect the school year for which the data are presented. In some countries the school year spans two calendar years (for example, from September 2010 to June 2011); in these cases the reference year refers to the year in which the school year ended (2011 in the example).
+Statistical concept(s): Gross enrollment ratios indicate the capacity of each level of the education system, but a high ratio may reflect a substantial number of overage children enrolled in each grade because of repetition or late entry rather than a successful education system.","Sustainable Development Goal (SDG) target 4.3 is committed to providing equitable access to affordable and high-quality technical, vocational, and tertiary education, including university, for both women and men. This particular indicator reflects the overall capacity of the educational infrastructure to support enrolment within a specified age demographic at the tertiary level.",,,,CC BY-4.0
+SE.XPD.TOTL.GD.ZS,Education: Inputs,"Government expenditure on education, total (% of GDP)",,"General government expenditure on education (current, capital, and transfers) is expressed as a percentage of GDP. It includes expenditure funded by transfers from international sources to government. General government usually refers to local, regional and central governments.",% of GDP,Annual,,,Median,Data may refer to spending by the ministry of education only (excluding spending on educational activities by other ministries).,,,"Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02","Methodology: Government expenditure on education, total (% of GDP) is calculated by dividing total government expenditure for all levels of education by the GDP, and multiplying by 100. Aggregate data are based on World Bank estimates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Information pertaining to educational expenditures is sourced from national governments, which provide the data in response to the annual survey conducted by the UNESCO Institute for Statistics (UIS) or through the joint UNESCO-OECD-Eurostat (UOE) data collection initiative. The responses to the questionnaire regarding educational spending are typically derived from the annual financial statements issued by either the Ministry of Finance or the Ministry of Education, or from the national accounts maintained by the National Statistical Office. Additionally, data concerning GDP and overall government expenditure are accessible via the IMF’s World Economic Outlook database, which is updated annually.
+Statistical concept(s): Generally, elevated levels of the indicator suggest that a government places a high priority on educational policy. Values ranging from 4% to 6% are indicative of a country achieving the benchmark set forth by the Education 2030 Framework for Action (https://unesdoc.unesco.org/ark:/48223/pf0000245656).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Educational expenditure encompasses spending on fundamental educational goods and services, including teaching personnel, school infrastructure, textbooks, and instructional materials, as well as on ancillary educational goods and services such as support services, general administration, and other related activities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Funding for education may originate from public sources, encompassing all government ministries and agencies that finance or support educational programs within the country, as well as from international and private sources, such as household contributions.","Investment in education acts as a driving force for economic growth, enhances productivity, and promotes the betterment of individual and collective welfare. This indicator evaluates the extent to which a government prioritizes education in relation to its overall economic prosperity.",,,,CC BY-4.0
+SG.GEN.PARL.ZS,Gender: Public life & decision making,Proportion of seats held by women in national parliaments (%),,Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.,% of single or lower chamber seats,Annual,,"Relevance to gender indicator: Women are vastly underrepresented in decision making positions in government, although there is some evidence of recent improvement. Gender parity in parliamentary representation is still far from being realized. Without representation at this level, it is difficult for women to influence policy.
+
+This is the Sustainable Development Goal indicator 5.5.1 (a). [https://unstats.un.org/sdgs/metadata/].",Weighted average,"The number of countries covered varies with suspensions or dissolutions of parliaments. There can be difficulties in obtaining information on by-election results and replacements due to death or resignation. These changes are ad hoc events which are more difficult to keep track of. By-elections, for instance, are often not announced internationally as general elections are. Parliaments vary considerably in their internal workings and procedures, however, generally legislate, oversee government and represent the electorate. In terms of measuring women's contribution to political decision making, this indicator may not be sufficient because some women may face obstacles in fully and efficiently carrying out their parliamentary mandate.
+
+
+
+
+
+
+
+
+
+
+
+The data is compiled by the Inter-Parliamentary Union on the basis of information provided by National Parliaments. The percentages do not take into account the case of parliaments for which no data was available at that date. Information is available in all countries where a national legislature exists and therefore does not include parliaments that have been dissolved or suspended for an indefinite period.",,,"Monthly ranking of women in national parliaments, Inter-Parliamentary Union (IPU), uri: https://data.ipu.org/women-ranking/, note: For the year of 1998, the data is as of August 10, 1998., type: Excel, date accessed: 2026-03-29","Methodology: The proportion of seats held by women in national parliaments is the number of seats held by women members in single or lower chambers of national parliaments, expressed as a percentage of all occupied seats; it is derived by dividing the total number of seats occupied by women by the total number of seats in parliament.
+Statistical concept(s): This indicator assesses the extent to which women are provided with equal opportunities to participate in parliamentary decision-making processes. It applies to the sole chamber of unicameral national parliaments and the lower chamber in the case of bicameral systems. The upper chamber in bicameral parliaments is not included in this measure. Parliamentary seats are typically occupied by individuals who are victorious in general elections, though they can also be acquired through nomination, appointment, indirect election, member rotation, or by-elections. The term 'seats' refers to the total count of parliamentary mandates or the total number of parliament members.","Despite much progress in recent decades, gender inequalities remain pervasive in many dimensions of life - worldwide. But while disparities exist throughout the world, they are most prevalent in developing countries. Gender inequalities in the allocation of such resources as education, health care, nutrition, and political voice matter because of the strong association with well-being, productivity, and economic growth. These patterns of inequality begin at an early age, with boys routinely receiving a larger share of education and health spending than do girls, for example.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Women are vastly underrepresented in decision-making positions in government, although there is some evidence of recent improvement. Gender parity in parliamentary representation is still far from being realized. Without representation at this level, it is difficult for women to influence policy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+A strong and vibrant democracy is possible only when parliament is fully inclusive of the population it represents. Parliaments cannot consider themselves inclusive, however, until they can boast the full participation of women. This is not just about women's right to equality and their contribution to the conduct of public affairs, but also about using women's resources and potential to determine political and development priorities that benefit societies and the global community.",,,,CC BY-4.0
+SH.DYN.MORT,Health: Mortality,"Mortality rate, under-5 (per 1,000 live births)",,"Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.",Per 1000 live births,Annual,,"Given that data on the incidence and prevalence of diseases are frequently unavailable, mortality rates are often used to identify vulnerable populations. Moreover, they are among the indicators most frequently used to compare socioeconomic development across countries. Under-five mortality rates are higher for boys than for girls in countries in which parental gender preferences are insignificant. Under-five mortality captures the effect of gender discrimination better than infant mortality does, as malnutrition and medical interventions have more significant impacts to this age group. Where female under-five mortality is higher, girls are likely to have less access to resources than boys.
+
+Aggregate data for LIC, UMC, LMC, HIC are computed based on the groupings for the World Bank fiscal year in which the data was released by the UN Inter-agency Group for Child Mortality Estimation.
+
+This is the Sustainable Development Goal indicator 3.2.1[https://unstats.un.org/sdgs/metadata/].",Weighted average,"Complete vital registration systems are fairly uncommon in developing countries. Thus estimates must be obtained from sample surveys or derived by applying indirect estimation techniques to registration, census, or survey data. Survey data are subject to recall error, and surveys estimating infant/child deaths require large samples because households in which a birth has occurred during a given year cannot ordinarily be preselected for sampling. Indirect estimates rely on model life tables that may be inappropriate for the population concerned. Extrapolations based on outdated surveys may not be reliable for monitoring changes in health status or for comparative analytical work.",,,"UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: www.childmortality.org, publisher: UNICEF, WHO, World Bank, United Nations Population Division;
+World Health Organization (WHO), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;
+World Bank (WB), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;
+United Nations (UN), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation, publisher: UN Population Division","Methodology: Estimates of neonatal, infant, and child mortality tend to vary by source and method for a given time and place. Years for available estimates also vary by country, making comparisons across countries and over time difficult. To make neonatal, infant, and child mortality estimates comparable and to ensure consistency across estimates by different agencies, the United Nations Inter-agency Group for Child Mortality Estimation (UN IGME), which comprises the United Nations Children's Fund (UNICEF), the World Health Organization (WHO), the World Bank, the United Nations Population Division, and other universities and research institutes, developed and adopted a statistical method that uses all available information to reconcile differences. The method uses statistical models to obtain a best estimate trend line by fitting a country-specific regression model of mortality rates against their reference dates.
+Statistical concept(s): The main sources of mortality data are vital registration systems and direct or indirect estimates based on sample surveys or censuses. A ""complete"" vital registration system - covering at least 90 percent of vital events in the population - is the best source of age-specific mortality data.","Mortality rates for different age groups (infants, children, and adults) and overall mortality indicators (life expectancy at birth or survival to a given age) are important indicators of health status in a country. Because data on the incidence and prevalence of diseases are frequently unavailable, mortality rates are often used to identify vulnerable populations. And they are among the indicators most frequently used to compare socioeconomic development across countries.",,,,CC BY-4.0
+SH.XPD.CHEX.GD.ZS,Health: Health systems,Current health expenditure (% of GDP),,"Level of current health expenditure expressed as a percentage of GDP.  Estimates of current health expenditures include healthcare goods and services consumed during each year. This indicator does not include capital health expenditures such as buildings, machinery, IT and stocks of vaccines for emergency or outbreaks.",Percentage,Annual,,,Weighted average,,,,"Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database","Methodology: The Health SHA 2011 tracks all health spending in a given country over a defined period of time regardless of the entity or institution that financed and managed that spending. It generates consistent and comprehensive data on health spending in a country, which in turn can contribute to evidence-based policy-making.
+Statistical concept(s): The health expenditure estimates have been prepared by the World Health Organization under the framework of the System of Health Accounts 2011 (SHA 2011).","Strengthening health financing is one objective of Sustainable Development Goal 3 (SDG target 3.c).  The levels and trends of health expenditure data identify key issues such as weaknesses and strengths and areas that need investment, for instance additional health facilities, better health information systems, or better trained human resources.  Health financing is also critical for reaching universal health coverage (UHC) defined as all people obtaining the quality health services they need without suffering financial hardship (SDG 3.8).  The data on out-of-pocket spending is a key indicator with regard to financial protection and hence of progress towards UHC.",,,,CC BY-4.0
+SH.XPD.CHEX.PC.CD,Health: Health systems,Current health expenditure per capita (current US$),,Current expenditures on health per capita in current US dollars. Estimates of current health expenditures include healthcare goods and services consumed during each year.,current US$,Annual,,,Weighted average,,,,"Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: http://apps.who.int/nha/database","Methodology: The Health SHA 2011 tracks all health spending in a given country over a defined period of time regardless of the entity or institution that financed and managed that spending. It generates consistent and comprehensive data on health spending in a country, which in turn can contribute to evidence-based policy-making.
+Statistical concept(s): The health expenditure estimates have been prepared by the World Health Organization under the framework of the System of Health Accounts 2011 (SHA 2011).","Strengthening health financing is one objective of Sustainable Development Goal 3 (SDG target 3.c).  The levels and trends of health expenditure data identify key issues such as weaknesses and strengths and areas that need investment, for instance additional health facilities, better health information systems, or better trained human resources.  Health financing is also critical for reaching universal health coverage (UHC) defined as all people obtaining the quality health services they need without suffering financial hardship (SDG 3.8).  The data on out-of-pocket spending is a key indicator with regard to financial protection and hence of progress towards UHC.",,,,CC BY-4.0
+SI.POV.DDAY,Poverty: Poverty rates,Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population),,"Poverty headcount ratio at $3.00 a day is the percentage of the population living on less than $3.00 a day at 2021 purchasing power adjusted prices. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.",%,Annual,,The World Bank’s internationally comparable poverty monitoring database now draws on income or detailed consumption data from more than 2000 household surveys across 169 countries. See the Poverty and Inequality Platform (PIP) for details (www.pip.worldbank.org).,Population-weighted average,"Despite progress in the last decade, the challenges of measuring poverty remain. The timeliness, frequency, quality, and comparability of household surveys need to increase substantially, particularly in the poorest countries. The availability and quality of poverty monitoring data remains low in small states, countries with fragile situations, and low-income countries and even some middle-income countries. The low frequency and lack of comparability of the data available in some countries create uncertainty over the magnitude of poverty reduction. 
+
+
+
+
+
+
+
+Besides the frequency and timeliness of survey data, other data quality issues arise in measuring household living standards. The surveys ask detailed questions on sources of income and how it was spent, which must be carefully recorded by trained personnel. Income is generally more difficult to measure accurately, and consumption comes closer to the notion of living standards. And income can vary over time even if living standards do not. But consumption data are not always available: the latest estimates reported here use consumption data for about two-thirds of countries.
+
+
+
+
+
+
+
+However, even similar surveys may not be strictly comparable because of differences in timing or in the quality and training of enumerators. Comparisons of countries at different levels of development also pose a potential problem because of differences in the relative importance of the consumption of nonmarket goods. The local market value of all consumption in kind (including own production, particularly important in underdeveloped rural economies) should be included in total consumption expenditure but may not be. Most survey data now include valuations for consumption or income from own production, but valuation methods vary.",,,"World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.","Methodology: International comparisons of poverty estimates entail both conceptual and practical problems. Countries have different definitions of poverty, and consistent comparisons across countries can be difficult. Local poverty lines tend to have higher purchasing power in rich countries, where more generous standards are used, than in poor countries.
+
+
+
+
+
+
+
+Since World Development Report 1990, the World Bank has aimed to apply a common standard in measuring extreme poverty, anchored to what poverty means in the world's poorest countries. The welfare of people living in different countries can be measured on a common scale by adjusting for differences in the purchasing power of currencies. The commonly used $1 a day standard, measured in 1985 international prices and adjusted to local currency using purchasing power parities (PPPs), was chosen for World Development Report 1990 because it was typical of the poverty lines in low-income countries at the time. As differences in the cost of living across the world evolve, the international poverty line has to be periodically updated using new PPP price data to reflect these changes. The last change was in September 2022, when we adopted $3.00 as the international poverty line using the 2021 PPP. Poverty measures based on international poverty lines attempt to hold the real value of the poverty line constant across countries, as is done when making comparisons over time. The $4.20 poverty line is derived from typical national poverty lines in countries classified as Lower Middle Income. The $8.30 poverty line is derived from typical national poverty lines in countries classified as Upper Middle Income.
+
+
+
+
+
+
+
+Early editions of World Development Indicators used PPPs from the Penn World Tables to convert values in local currency to equivalent purchasing power measured in U.S dollars. Later editions used 1993, 2005, and 2021 consumption PPP estimates produced by the World Bank. The current extreme poverty line is set at $3.00 a day in 2021 PPP terms, which represents the mean of the poverty lines found in 15 of the poorest countries ranked by per capita consumption. The new poverty line maintains the same standard for extreme poverty - the poverty line typical of the poorest countries in the world - but updates it using the latest information on the cost of living in developing countries. As a result of revisions in PPP exchange rates, poverty rates for individual countries cannot be compared with poverty rates reported in earlier editions.
+
+
+
+
+
+
+
+The statistics reported here are based on consumption data or, when unavailable, on income surveys.
+Statistical concept(s): Poverty headcount ratio at $3.00 a day refers to the percentage of a population whose consumption or income per day falls short of the international poverty line of $3.00 a day (adjusted for purchasing power parity differences across countries), the poverty line typical of low-income countries.","The World Bank Group is committed to reducing extreme poverty to 3 percent or less, globally, by 2030. The World Bank defines extreme poverty as living on less than $3.00 a day (adjusted for purchasing power differences across countries). The value of $3.00 is the typical poverty line of low-income countries, which is the minimum amount of money people in low-income countries need to cover their daily basic needs, including food, clothing, and shelter. The share of population living on less than $3.00 a day is the first indicator the World Bank tracks in its Bank’s expanded vision indicators to create a world free of poverty in a livable planet. It is also the indicator the UN tracks for SDG 1.1. Monitoring poverty is important on the global development agenda as well as on the national development agenda of many countries.",,,,CC BY-4.0
+SI.POV.GINI,Poverty: Income distribution,Gini index,,"Gini index measures the extent to which the distribution of income (or, in some cases, consumption expenditure) among individuals or households within an economy deviates from a perfectly equal distribution. A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual or household. The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line. Thus a Gini index of 0 represents perfect equality, while an index of 100 implies perfect inequality.",%,Annual,,The World Bank’s internationally comparable poverty monitoring database now draws on income or detailed consumption data from more than 2000 household surveys across 169 countries. See the Poverty and Inequality Platform (PIP) for details (www.pip.worldbank.org).,,"Gini coefficients are not unique. It is possible for two different Lorenz curves to give rise to the same Gini coefficient. Furthermore it is possible for the Gini coefficient of a developing country to rise (due to increasing inequality of income) while the number of people in absolute poverty decreases. This is because the Gini coefficient measures relative, not absolute, wealth.
+
+
+
+
+
+
+
+Another limitation of the Gini coefficient is that it is not additive across groups, i.e. the total Gini of a society is not equal to the sum of the Gini's for its sub-groups. Thus, country-level Gini coefficients cannot be aggregated into regional or global Gini's, although a Gini coefficient can be computed for the aggregate.
+
+
+
+
+
+
+
+Because the underlying household surveys differ in methods and types of welfare measures collected, data are not strictly comparable across countries or even across years within a country. Two sources of non-comparability should be noted for distributions of income in particular. First, the surveys can differ in many respects, including whether they use income or consumption expenditure as the living standard indicator. The distribution of income is typically more unequal than the distribution of consumption. In addition, the definitions of income used differ more often among surveys. Consumption is usually a much better welfare indicator, particularly in developing countries. Second, households differ in size (number of members) and in the extent of income sharing among members. And individuals differ in age and consumption needs. Differences among countries in these respects may bias comparisons of distribution. 
+
+
+
+
+
+
+
+World Bank staff have made an effort to ensure that the data are as comparable as possible. Wherever possible, consumption has been used rather than income. Income distribution and Gini indexes for high-income economies are calculated directly from the Luxembourg Income Study database, using an estimation method consistent with that applied for developing countries.",,,"World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.","Methodology: The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line. A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual. Thus a Gini index of 0 represents perfect equality, while an index of 100 implies perfect inequality.
+
+
+
+
+
+
+
+The Gini index provides a convenient summary measure of the degree of inequality. Data on the distribution of income or consumption come from nationally representative household surveys. Where the original data from the household survey were available, they have been used to calculate the income or consumption shares by quintile. Otherwise, shares have been estimated from the best available grouped data.
+
+
+
+
+
+
+
+The distribution data have been adjusted for household size, providing a more consistent measure of per capita income or consumption. 
+
+
+
+
+
+
+
+The year reflects the year in which the underlying household survey data were collected or, when the data collection period bridged two calendar years, the year data collection started.
+Statistical concept(s): The Gini index is the average of all pairwise absolute differences between individual consumption or income, normalized by twice the mean. More intuitively, the Gini index is the average share of mean consumption or income that needs to be transferred between two randomly selected individuals to achieve equality. A Gini index of 1 represents perfect inequality, in which total consumption or income goes to one individual. A Gini index of 0 indicates represents perfect equality, in which all individuals have the same level of consumption or income.","The World Bank Group's vision of promoting shared prosperity includes a measure that tracks the number of economies with high inequality, defined as those with a Gini index greater than 0.4",,,,CC BY-4.0
+SL.TLF.CACT.FE.ZS,Social Protection & Labor: Labor force structure,"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",,The labor force participation rate is the labor force as a percent of the population ages 15 and older. The labor force is the sum of all persons of working age who are employed and those who are unemployed.,% of female population ages 15+,Annual,,National estimates are also available in the WDI database. Caution should be used when comparing ILO estimates with national estimates.,Weighted average,"Data on the labor force are compiled by the ILO from labor force surveys, censuses, and establishment censuses and surveys. For some countries a combination of these sources is used. Labor force surveys are the most comprehensive source for internationally comparable labor force data. They can cover all non-institutionalized civilians, all branches and sectors of the economy, and all categories of workers, including people holding multiple jobs. By contrast, labor force data from population censuses are often based on a limited number of questions on the economic characteristics of individuals, with little scope to probe. The resulting data often differ from labor force survey data and vary considerably by country, depending on the census scope and coverage. Establishment censuses and surveys provide data only on the employed population, not unemployed workers, workers in small establishments, or workers in the informal sector.
+
+
+
+
+
+The reference period of a census or survey is another important source of differences: in some countries data refer to people's status on the day of the census or survey or during a specific period before the inquiry date, while in others data are recorded without reference to any period. In countries, where the household is the basic unit of production and all members contribute to output, but some at low intensity or irregularly, the estimated labor force may be much smaller than the numbers actually working.
+
+
+
+
+
+Differing definitions of employment age also affect comparability. For most countries the working age is 15 and older, but in some countries children younger than 15 work full- or part-time and are included in the estimates. Similarly, some countries have an upper age limit. As a result, calculations may systematically over- or underestimate actual rates.",,,"ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026","Methodology: The labor force participation rate (LFPR) is calculated as follows: 
+
+
+LFPR (%) = 100 x Labor force / population of a given age group, where the labor force is equal to employment plus unemployment.
+
+
+Labor force surveys are typically the preferred source of information for determining the labor force participation rate. Population censuses are another major source of data on the labor force and its components.
+Statistical concept(s): The labor force is the supply of labor available for producing goods and services in an economy. It includes people who are currently employed and people who are unemployed but seeking work as well as first-time job-seekers. Not everyone who works is included, however. Unpaid workers, family workers, and students are often omitted, and some countries do not count members of the armed forces. Labor force size tends to vary during the year as seasonal workers enter and leave.","The labor force participation rate indicator plays a central role in the study of the factors that determine the size and composition of a country’s human resources and in making projections of the future supply of labor. The information is also used to formulate employment policies, to determine training needs and to calculate the expected working lives of the male and female populations and the rates of accession to, and retirement from, economic activity – crucial information for the financial planning of social security systems.",,,,CC BY-4.0
+SL.UEM.TOTL.ZS,Social Protection & Labor: Unemployment,"Unemployment, total (% of total labor force) (modeled ILO estimate)",,Unemployment refers to the share of the labor force that is without work but available for and seeking employment.,% of total labor force,Annual,,National estimates are also available in the WDI database. Caution should be used when comparing ILO estimates with national estimates.,Weighted average,"While the unemployment rate may be considered the most informative labour market indicator, reflecting the general performance of the labour market and the economy as a whole, it should not be interpreted as a measure of economic hardship or of well-being. When based on the internationally-recommended standards, the unemployment rate simply reflects the proportion of the labour force that does not have a job but is available and actively looking for work. It says nothing about the economic resources of unemployed workers or their family members. Its use should, therefore, be limited to serving as a measurement of the utilization of labour and an indication of the failure to find work. Other measures, including income-related indicators, would be needed to evaluate economic hardship. An additional criticism of the aggregate unemployment measure is that it masks information on the composition of the jobless population and therefore misses out on the particularities of the education level, ethnic origin, socio-economic background, work experience, etc. of the unemployed. Moreover, the unemployment rate says nothing about the type of unemployment – whether it is cyclical and short-term or structural and long-term – which is a critical issue for policy makers in the development of their policy responses, especially given that structural unemployment cannot be addressed by boosting market demand only.",,,"ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026","Methodology: The unemployment rate is calculated by expressing the number of unemployed persons as a percentage of the total number of persons in the labor force. The labor force (formerly known as the economically active population) is the sum of the number of persons employed and the number of persons unemployed. 
+
+
+
+
+
+
+
+The series is part of the ""ILO modeled estimates database,"" including nationally reported observations and imputed data for countries with missing data, primarily to capture regional and global trends with consistent country coverage. Country-reported microdata is based mainly on nationally representative labor force surveys, with other sources (e.g., household surveys and population censuses) considering differences in the data source, the scope of coverage, methodology, and other country-specific factors. Country analysis requires caution where limited nationally reported data are available. A series of models are also applied to impute missing observations and make projections. However, imputed observations are not based on national data, are subject to high uncertainty, and should not be used for country comparisons or rankings. For more information: https://ilostat.ilo.org/resources/concepts-and-definitions/ilo-modelled-estimates/
+Statistical concept(s): The unemployed comprise all persons of working age who were: a) without work during the reference period, i.e. were not in paid employment or self-employment; b) currently available for work, i.e. were available for paid employment or self-employment during the reference period; and c) seeking work, i.e. had taken specific steps in a specified recent period to seek paid employment or self-employment. Future starters, that is, persons who did not look for work but have a future labor market stake (made arrangements for a future job start) are also counted as unemployed, as are participants in skills training or retraining schemes within employment promotion programs, who on that basis, were “not in employment”, not “currently available” and did not “seek employment” because they had a job offer to start within a short subsequent period generally not greater than three months. The unemployed also include persons “not in employment” who carried out activities to migrate abroad in order to work for pay or profit but who were still waiting for the opportunity to leave.
+
+
+
+
+
+
+
+Employment comprises all persons of working age who during a specified brief period, such as one week or one day, were in the following categories: a) paid employment (whether at work or with a job but not at work); or b) self-employment (whether at work or with an enterprise but not at work).
+
+
+
+The working-age population is the population above the legal working age, but for statistical purposes it comprises all persons above a specified minimum age threshold for which an inquiry on economic activity is made. To promote international comparability, the working-age population is often defined as all persons aged 15 and older, but this may vary from country to country based on national laws and practices (some countries also apply an upper age limit).","The unemployment rate is a useful measure of the underutilization of the labor supply. It reflects the inability of an economy to generate employment for those persons who want to work but are not doing so, even though they are available for employment and actively seeking work. It is thus seen as an indicator of the efficiency and effectiveness of an economy to absorb its labor force and of the performance of the labor market.
+
+
+
+
+
+
+
+Given its usefulness in conveying valuable information on a country’s labor market situation and the fact that it is widely recognized as a headline labor market indicator, it was included as one of the indicators to measure progress towards the achievement of the Sustainable Development Goals (SDG), under Goal 8 (Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all).",,,,CC BY-4.0
+SM.POP.NETM,Social Protection & Labor: Migration,Net migration,,"Net migration is the net total of migrants during the period, that is, the number of immigrants minus the number of emigrants, including both citizens and noncitizens.",Unit,Annual,,,Sum,"International migration is the component of population change most difficult to measure and estimate reliably. Thus, the quality and quantity of the data used in the estimation and projection of net migration varies considerably by country. Furthermore, the movement of people across international boundaries, which is very often a response to changing socio-economic, political and environmental forces, is subject to a great deal of volatility. Refugee movements, for instance, may involve large numbers of people moving across boundaries in a short time. For these reasons, projections of future international migration levels are the least robust part of current population projections and reflect mainly a continuation of recent levels and trends in net migration.",,,"World Population Prospects, United Nations (UN), publisher: UN Population Division","Methodology: When there is insufficient data, net migration is derived through the difference between the overall population growth rate and the rate of natural increase (the difference between the birth rate and the death rate) during the same period. Such calculations are usually made for intercensal periods. The estimates are also derived from the data on foreign-born population - people who have residence in one country but were born in another country. When data on the foreign-born population are not available, data on foreign population - that is, people who are citizens of a country other than the country in which they reside - are used as estimates.
+Statistical concept(s): The United Nations Population Division provides data on net migration and migrant stock. Because data on migrant stock is difficult for countries to collect, the United Nations Population Division takes into account the past migration history of a country or area, the migration policy of a country, and the influx of refugees in recent periods when deriving estimates of net migration. The data to calculate these estimates come from a variety of sources, including border statistics, administrative records, surveys, and censuses.","Movement of people, most often through migration, is a significant part of global integration. Migrants contribute to the economies of both their host country and their country of origin. Yet reliable statistics on migration are difficult to collect and are often incomplete, making international comparisons a challenge.
+
+
+
+Global migration patterns have become increasingly complex in modern times, involving not just refugees, but also millions of economic migrants. In most developed countries, refugees are admitted for resettlement and are routinely included in population counts by censuses or population registers.
+
+
+
+But refugees and migrants, even if they often travel in the same way, are fundamentally different, and for that reason are treated very differently under modern international law. Migrants, especially economic migrants, choose to move in order to improve the future prospects of themselves and their families. Refugees have to move if they are to save their lives or preserve their freedom.",,,,CC BY-4.0
+SP.DYN.IMRT.IN,Health: Mortality,"Mortality rate, infant (per 1,000 live births)",,"Infant mortality rate is the number of infants dying before reaching one year of age, per 1,000 live births in a given year.",Per 1000 live births,Annual,,"Given that data on the incidence and prevalence of diseases are frequently unavailable, mortality rates are often used to identify vulnerable populations. Moreover, they are among the indicators most frequently used to compare socioeconomic development across countries. Under-five mortality rates are higher for boys than for girls in countries in which parental gender preferences are insignificant. Under-five mortality captures the effect of gender discrimination better than infant mortality does, as malnutrition and medical interventions have more significant impacts to this age group. Where female under-five mortality is higher, girls are likely to have less access to resources than boys.
+
+Aggregate data for LIC, UMC, LMC, HIC are computed based on the groupings for the World Bank fiscal year in which the data was released by the UN Inter-agency Group for Child Mortality Estimation.",Weighted average,"Complete vital registration systems are fairly uncommon in developing countries. Thus estimates must be obtained from sample surveys or derived by applying indirect estimation techniques to registration, census, or survey data. Survey data are subject to recall error, and surveys estimating infant/child deaths require large samples because households in which a birth has occurred during a given year cannot ordinarily be preselected for sampling. Indirect estimates rely on model life tables that may be inappropriate for the population concerned. Extrapolations based on outdated surveys may not be reliable for monitoring changes in health status or for comparative analytical work.",,,"UN Inter-agency Group for Child Mortality Estimation, UN Children's Fund (UNICEF), uri: www.childmortality.org;
+World Health Organization (WHO), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;
+World Bank (WB), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation;
+United Nations (UN), uri: www.childmortality.org, note: UN Inter-agency Group for Child Mortality Estimation, publisher: UN Population Division","Methodology: Estimates of neonatal, infant, and child mortality tend to vary by source and method for a given time and place. Years for available estimates also vary by country, making comparisons across countries and over time difficult. To make neonatal, infant, and child mortality estimates comparable and to ensure consistency across estimates by different agencies, the United Nations Inter-agency Group for Child Mortality Estimation (UN IGME), which comprises the United Nations Children's Fund (UNICEF), the World Health Organization (WHO), the World Bank, the United Nations Population Division, and other universities and research institutes, developed and adopted a statistical method that uses all available information to reconcile differences. The method uses statistical models to obtain a best estimate trend line by fitting a country-specific regression model of mortality rates against their reference dates.
+Statistical concept(s): The main sources of mortality data are vital registration systems and direct or indirect estimates based on sample surveys or censuses. A ""complete"" vital registration system - covering at least 90 percent of vital events in the population - is the best source of age-specific mortality data.","Mortality rates for different age groups (infants, children, and adults) and overall mortality indicators (life expectancy at birth or survival to a given age) are important indicators of health status in a country. Because data on the incidence and prevalence of diseases are frequently unavailable, mortality rates are often used to identify vulnerable populations. And they are among the indicators most frequently used to compare socioeconomic development across countries.",,,,CC BY-4.0
+SP.DYN.LE00.IN,Health: Mortality,"Life expectancy at birth, total (years)",,Life expectancy at birth indicates the number of years a newborn infant would live if prevailing patterns of mortality at the time of its birth were to stay the same throughout its life.,Years,Annual,,,Weighted average,Annual data series from United Nations Population Division's World Population Prospects are interpolated data from 5-year period data. Therefore they may not reflect real events as much as observed data.,,,"World Population Prospects, United Nations (UN), uri: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from male and female life expectancy at birth from sources such as statistical databases and publications from national statistical offices.;
+Demographic Statistics, Eurostat (ESTAT), note: Derived from male and female life expectancy at birth from sources such as Eurostat: Demographic Statistics.","Methodology: Life expectancy at birth is derived from life tables and is based on sex- and age-specific death rates, or derived from male and female life expectancy at birth.
+Statistical concept(s): Life expectancy at birth used here is the average number of years a newborn is expected to live if mortality patterns at the time of its birth remain constant in the future. It reflects the overall mortality level of a population, and summarizes the mortality pattern that prevails across all age groups in a given year. It is calculated in a period life table which provides a snapshot of a population's mortality pattern at a given time. It therefore does not reflect the mortality pattern that a person actually experiences during his/her life, which can be calculated in a cohort life table.
+
+
+
+High mortality in young age groups significantly lowers the life expectancy at birth. But if a person survives his/her childhood of high mortality, he/she may live much longer. For example, in a population with a life expectancy at birth of 50, there may be few people dying at age 50. The life expectancy at birth may be low due to the high childhood mortality so that once a person survives his/her childhood, he/she may live much longer than 50 years.","Mortality rates for different age groups (infants, children, and adults) and overall mortality indicators (life expectancy at birth or survival to a given age) are important indicators of health status in a country. Because data on the incidence and prevalence of diseases are frequently unavailable, mortality rates are often used to identify vulnerable populations. And they are among the indicators most frequently used to compare socioeconomic development across countries.",,,,CC BY-4.0
+SP.DYN.TFRT.IN,Health: Reproductive health,"Fertility rate, total (births per woman)",,Total fertility rate represents the number of children that would be born to a woman if she were to live to the end of her childbearing years and bear children in accordance with age-specific fertility rates of the specified year.,Births per woman,Annual,,Relevance to gender indicator: it can indicate the status of women within households and a woman’s decision about the number and spacing of children.,Weighted average,Annual data series from United Nations Population Division's World Population Prospects are interpolated data from 5-year period data. Therefore they may not reflect real events as much as observed data.,,,"World Population Prospects, United Nations (UN), publisher: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs);
+Demographic Statistics, Eurostat (ESTAT)","Methodology: Total fertility rate is the sum of the age-specific fertility rates (multiplied by five, if the age-specific fertility rates are for 5-year age groups).
+Statistical concept(s): Total fertility rates are based on data on registered live births from vital registration systems or, in the absence of such systems, from censuses or sample surveys. The estimated rates are generally considered reliable measures of fertility in the recent past. Where no empirical information on age-specific fertility rates is available, a model is used to estimate the share of births to adolescents. For countries without reliable vital registration systems fertility rates are generally based on extrapolations from trends observed in censuses or surveys from earlier years.","Reproductive health is a state of physical and mental well-being in relation to the reproductive system and its functions and processes. Means of achieving reproductive health include education and services during pregnancy and childbirth, safe and effective contraception, and prevention and treatment of sexually transmitted diseases. Complications of pregnancy and childbirth are the leading cause of death and disability among women of reproductive age in developing countries.",,,,CC BY-4.0
+SP.POP.0014.TO.ZS,Health: Population: Structure,Population ages 0-14 (% of total population),,Population between the ages 0 to 14 as a percentage of the total population. Population is based on the de facto definition of population.,Percentage,Annual,,,Weighted average,"Because the five-year age group is the cohort unit and five-year period data are used in the United Nations Population Division's World Population Prospects, interpolations to obtain annual data or single age structure may not reflect actual events or age composition. For more information, see the original source.",,,"United Nations Population Division. World Population Prospects., United Nations Population Division, uri: https://population.un.org/wpp/, publisher: United Nations Population Division","Methodology: Population structure by age and sex in the World Bank's estimates is based on age/sex distributions of the population in United Nations Population Division's World Population Prospects.
+Statistical concept(s): Proportion of population by age and/or sex describes the proportion of the population in the category out of total (or male total or female total). Population estimates are dependent on the demographic components of change that are fertility, mortality and migration. As the age/sex distribution of population continues to change throughout the time even within a year, a reference time in the year that the estimate refers to is needed, such as mid-year, end-year or beginning of year. The values shown are midyear estimates.","Patterns of development in a country are partly determined by the age composition of its population. Different age groups have different impacts on both the environment and on infrastructure needs.  Therefore the age structure of a population is useful for analyzing resource use and formulating future policy and planning goals  with regards infrastructure and development.
+
+
+
+This indicator is used for calculating age dependency ratio (percent of working-age population). The age dependency ratio is the ratio of the sum of the population aged 0-14 and the population aged 65 and above to the population aged 15-64. In many developing countries, the once rapidly growing population group of the under-15 population is shrinking. As a result, high fertility rates, together with declining mortality rates, are now reflected in the larger share of the 65 and older population.",,,,CC BY-4.0
+SP.POP.65UP.TO.ZS,Health: Population: Structure,Population ages 65 and above (% of total population),,"Population ages 65 and above as a percentage of the total population. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.",Percentage,Annual,,,Weighted average,"Because the five-year age group is the cohort unit and five-year period data are used in the United Nations Population Division's World Population Prospects, interpolations to obtain annual data or single age structure may not reflect actual events or age composition. For more information, see the original source.",,,"World Population Prospects, United Nations (UN), publisher: UN Population Division","Methodology: Population structure by age and sex in the World Bank's estimates is based on age/sex distributions of the population in United Nations Population Division's World Population Prospects.
+Statistical concept(s): Proportion of population by age and/or sex describes the proportion of the population in the category out of total (or male total or female total). Population estimates are dependent on the demographic components of change that are fertility, mortality and migration. As the age/sex distribution of population continues to change throughout the time even within a year, a reference time in the year that the estimate refers to is needed, such as mid-year, end-year or beginning of year. The values shown are midyear estimates.","Patterns of development in a country are partly determined by the age composition of its population. Different age groups have different impacts on both the environment and on infrastructure needs.  Therefore the age structure of a population is useful for analyzing resource use and formulating future policy and planning goals  with regards infrastructure and development.
+
+
+
+This indicator is used for calculating age dependency ratio (percent of working-age population). The age dependency ratio is the ratio of the sum of the population aged 0-14 and the population aged 65 and above to the population aged 15-64. In many developing countries, the once rapidly growing population group of the under-15 population is shrinking. As a result, high fertility rates, together with declining mortality rates, are now reflected in the larger share of the 65 and older population.",,,,CC BY-4.0
+SP.POP.GROW,Health: Population: Dynamics,Population growth (annual %),,"Annual population growth rate for year t is the exponential rate of growth of midyear population from year t-1 to t, expressed as a percentage. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.",Percentage,Annual,,,Weighted average,,,,"World Population Prospects, United Nations (UN), note: Derived from total population, publisher: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from total population;
+Demographic Statistics, Eurostat (ESTAT), note: Derived from total population;
+Population and Vital Statistics Report (various years), United Nations (UN), note: Derived from total population, publisher: UN Statistical Division","Methodology: The growth rate is computed using the exponential growth formula:
+
+
+
+r = ln(pn/p0)/n, 
+
+
+
+where r is the exponential rate of growth, ln() is the natural logarithm, pn is the end period population, p0 is the beginning period population, and n is the number of years in between. Note that this is not the geometric growth rate used to compute compound growth over discrete periods.
+
+
+
+For information on total population from which the growth rates are calculated, see total population (SP.POP.TOTL).
+Statistical concept(s): Total population growth rates are calculated on the assumption that rate of growth is constant between two points in time.","Increases in human population, whether as a result of immigration or more births than deaths, can impact natural resources and social infrastructure.  This can place pressure on a country's sustainability.  A significant growth in population will negatively impact the availability of land for agricultural production, and will aggravate demand for food, energy, water, social services, and infrastructure. On the other hand, decreasing population size - a result of fewer births than deaths, and people moving out of a country - can impact a government's commitment to maintain services and infrastructure.",,,,CC BY-4.0
+SP.POP.TOTL,Health: Population: Structure,"Population, total",,"Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.",Unit,Annual,,Relevance to gender indicator: disaggregating the population composition by gender will help a country in projecting its demand for social services on a gender basis.,Sum,"Current population estimates for developing countries that lack (i) reliable recent census data, and (ii) pre- and post-census estimates for countries with census data, are provided by the United Nations Population Division and other agencies. 
+
+
+
+The cohort component method - a standard method for estimating and projecting population - requires fertility, mortality, and net migration data, often collected from sample surveys, which can be small or limited in coverage. Population estimates are from demographic modeling and so are susceptible to biases and errors from shortcomings in both the model and the data.
+
+
+
+Because future trends cannot be known with certainty, population projections have a wide range of uncertainty.",,,"World Population Prospects, United Nations (UN), uri: https://population.un.org/wpp/, publisher: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs), uri: https://unstats.un.org/home/nso_sites/, publisher: National Statistical Offices;
+Eurostat: Demographic Statistics, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/data/database?node_code=earn_ses_monthly, publisher: Eurostat;
+Population and Vital Statistics Report (various years), United Nations (UN), uri: https://unstats.un.org, publisher: UN Statistics Division","Methodology: Population estimates are usually based on national population censuses, and estimates of fertility, mortality and migration.
+
+
+
+Errors and undercounting in census occur even in high-income countries.  In developing countries errors may be substantial because of limits in the transport, communications, and other resources required to conduct and analyze a full census.
+
+
+
+The quality and reliability of official demographic data are also affected by public trust in the government, government commitment to full and accurate enumeration, confidentiality and protection against misuse of census data, and census agencies' independence from political influence. Moreover, comparability of population indicators is limited by differences in the concepts, definitions, collection procedures, and estimation methods used by national statistical agencies and other organizations that collect the data.
+
+
+
+The currentness of a census and the availability of complementary data from surveys or registration systems are objective ways to judge demographic data quality. Some European countries' registration systems offer complete information on population in the absence of a census.
+
+
+
+The United Nations Statistics Division monitors the completeness of vital registration systems. Some developing countries have made progress over the last 60 years, but others still have deficiencies in civil registration systems.
+
+
+
+International migration is the only other factor besides birth and death rates that directly determines a country's population change. Estimating migration is difficult. At any time many people are located outside their home country as tourists, workers, or refugees or for other reasons. Standards for the duration and purpose of international moves that qualify as migration vary, and estimates require information on flows into and out of countries that is difficult to collect.
+
+
+
+One of the major data sources of this indicator is UN Population Division's World Population Prospects, which use the cohort component method to produce population estimates and projections.
+
+
+
+Population projections, starting from a base year are projected forward using assumptions of mortality, fertility, and migration by age and sex through 2050, based on the UN Population Division's World Population Prospects database medium variant.
+Statistical concept(s): Estimates of total population describe the size of total population. Population estimates are dependent on the demographic components of change that are fertility, mortality and migration. As the size of population continues to change throughout the time even within a year, a reference time in the year that the estimate refers to is needed, such as mid-year, end-year or beginning of year. The values shown are midyear estimates.","Increases in human population, whether as a result of immigration or more births than deaths, can impact natural resources and social infrastructure.  This can place pressure on a country's sustainability.  A significant growth in population will negatively impact the availability of land for agricultural production, and will aggravate demand for food, energy, water, social services, and infrastructure. On the other hand, decreasing population size - a result of fewer births than deaths, and people moving out of a country - can impact a government's commitment to maintain services and infrastructure.",,,,CC BY-4.0
+SP.URB.TOTL.IN.ZS,Environment: Density & urbanization,Urban population (% of total population),,Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.,Percentage,Annual,,,Weighted average,"Aggregation of urban and rural population may not add up to total population because of different country coverage.
+
+Most countries use an urban classification related to the size or characteristics of settlements. Some define urban areas based on the presence of certain infrastructure and services. And other countries designate urban areas based on administrative arrangements. Because of national differences in the characteristics that distinguish urban from rural areas, the distinction between urban and rural population is not amenable to a single definition that would be applicable to all countries.
+
+Estimates of the world's urban population would change significantly if China, India, and a few other populous nations were to change their definition of urban centers.
+
+Because the estimates of city and metropolitan area are based on national definitions of what constitutes a city or metropolitan area, cross-country comparisons should be made with caution.",,,"World Urbanization Prospects, United Nations (UN), uri: https://population.un.org/wup/, note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division","Methodology: Percentages urban are the numbers of persons residing in an area defined as ''urban'' per 100 total population.
+Statistical concept(s): Urban population refers to people living in urban areas as defined by national statistical offices. Particular caution should be used in interpreting the figures for percentage urban for different countries. Countries differ in the way they classify population as ""urban"" or ""rural."" The population of a city or metropolitan area depends on the boundaries chosen.","Explosive growth of cities globally signifies the demographic transition from rural to urban, and is associated with shifts from an agriculture-based economy to mass industry, technology, and service.
+
+
+
+
+
+
+
+
+
+
+
+In principle, cities offer a more favorable setting for the resolution of social and environmental problems than rural areas. Cities generate jobs and income, and deliver education, health care and other services. Cities also present opportunities for social mobilization and women's empowerment.",,,,CC BY-4.0
