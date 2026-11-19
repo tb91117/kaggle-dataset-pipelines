@@ -1,0 +1,13 @@
+# build outputs and downloaded sources
+datasets/
+pipelines/
+notebooks/
+# python
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+# secrets
+.env
+kaggle.json
