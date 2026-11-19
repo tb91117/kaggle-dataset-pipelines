@@ -11,3 +11,5 @@ __pycache__/
 # secrets
 .env
 kaggle.json
+build/
+dist/
