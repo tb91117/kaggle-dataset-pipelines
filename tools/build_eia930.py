@@ -146,7 +146,9 @@ print(len(df.columns), "columns")
 
 
 # ---------------------------------------------------------------- dataset-metadata.json
-first_seen = {c: df.loc[df[c].notna(), "utc_time_end"].min() for c in df.columns if c.startswith("ng_") and c.endswith("_mw")}
+# fuels with no values at all (e.g. a column EIA added before reporting any data) are left out of the table
+first_seen = {c: df.loc[df[c].notna(), "utc_time_end"].min() for c in df.columns
+              if c.startswith("ng_") and c.endswith("_mw") and df[c].notna().any()}
 fuel_lines = "\n".join(f"| `{c}` | {first_seen[c]:%Y-%m} |" for c in sorted(first_seen, key=lambda c: first_seen[c]))
 last_actual = df.loc[df.demand_mw.notna(), "utc_time_end"].max()
 last_seen = {c: df.loc[df[c].notna(), "utc_time_end"].max() for c in first_seen}

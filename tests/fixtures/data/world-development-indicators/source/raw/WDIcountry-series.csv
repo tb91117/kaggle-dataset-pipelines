@@ -1,0 +1,63 @@
+﻿CountryCode,SeriesCode,DESCRIPTION
+BRA,MS.MIL.XPND.GD.ZS,1960-1994 SIPRI estimates.
+BRA,SP.DYN.TFRT.IN,Data source: United Nations World Population Prospects
+BRA,IT.NET.USER.ZS,Telecomunicaçoes Brasileiras S.A. From 1998: Agência Nacional de Telecomunicações (ANATEL).
+BRA,SP.POP.TOTL,Data source: United Nations World Population Prospects
+BRA,SM.POP.NETM,Data source: United Nations World Population Prospects
+BRA,SP.DYN.LE00.IN,Data source: United Nations World Population Prospects
+BRA,EG.FEC.RNEW.ZS,"Sources: World Energy Statistics and Balances, IEA (2014)"
+BRA,SP.POP.GROW,Data source: United Nations World Population Prospects
+BRA,MS.MIL.XPND.CD,1960-1994 SIPRI estimates.
+BRA,IT.CEL.SETS.P2,Telecomunicaçoes Brasileiras S.A. From 1998: Agência Nacional de Telecomunicações (ANATEL).
+CHN,IT.CEL.SETS.P2,Ministry of Information Industry (MII). Ministry of Industry and Information Technology.
+CHN,MS.MIL.XPND.GD.ZS,1989-2021 SIPRI estimates.
+CHN,SP.DYN.LE00.IN,Data source: United Nations World Population Prospects
+CHN,SP.POP.0014.TO.ZS,"Excluding Hong Kong SAR, China; Macao SAR, China; Taiwan, China."
+CHN,SM.POP.NETM,Data source: United Nations World Population Prospects
+CHN,SP.POP.TOTL,Data source: National Bureau of Statistics
+CHN,EG.FEC.RNEW.ZS,"Sources: World Energy Statistics and Balances, IEA (2014)"
+CHN,SP.DYN.TFRT.IN,Data source: United Nations World Population Prospects
+CHN,MS.MIL.XPND.CD,1989-2021 SIPRI estimates.
+CHN,SP.POP.65UP.TO.ZS,"Excluding Hong Kong SAR, China; Macao SAR, China; Taiwan, China."
+CHN,IT.NET.USER.ZS,Ministry of Information Industry (MII). Ministry of Industry and Information Technology.
+CHN,SP.POP.GROW,Data source: National Bureau of Statistics
+DEU,SP.POP.TOTL,"Data source: Eurostat, Federal Statistical Office"
+DEU,IT.CEL.SETS.P2,"Bundesnetzagentur (BNetzA, formerly Regulierungsbehörde für Telekommunikation und Post)."
+DEU,SM.POP.NETM,Data source: United Nations World Population Prospects
+DEU,SP.POP.GROW,"Data source: Eurostat, Federal Statistical Office"
+DEU,IT.NET.USER.ZS,"Bundesnetzagentur (BNetzA, formerly Regulierungsbehörde für Telekommunikation und Post)."
+DEU,SP.DYN.TFRT.IN,"Data source: Eurostat, Germany Federal Statistical Office"
+DEU,SP.DYN.LE00.IN,Derived using male and female life expectancy
+DEU,EG.FEC.RNEW.ZS,"Sources: World Energy Statistics and Balances, IEA (2014)"
+IND,SL.UEM.TOTL.ZS,"The reference period covers the calendar year for the ILO-modeled estimates. In contrast, the corresponding national estimate series, based on the Periodic Labour Force Survey (PLFS), refers to the period from July to June. While the trends align in normal circumstances, in 2020, a significant economic and labor market impact (due to the COVID pandemic) contributed to the divergences between the PLFS-based and ILO-modeled estimates."
+IND,IT.NET.USER.ZS,Department of Telecommunications (DOT). Ministry of Communications and Information Technology.
+IND,SP.POP.TOTL,Data source: United Nations World Population Prospects
+IND,MS.MIL.XPND.GD.ZS,1960-1987 SIPRI estimates.
+IND,EG.FEC.RNEW.ZS,"Sources: World Energy Statistics and Balances, IEA (2014)"
+IND,MS.MIL.XPND.CD,1960-1987 SIPRI estimates.
+IND,SP.DYN.LE00.IN,Data source: United Nations World Population Prospects
+IND,IT.CEL.SETS.P2,Department of Telecommunications (DOT). Ministry of Communications and Information Technology.
+IND,SM.POP.NETM,Data source: United Nations World Population Prospects
+IND,SP.DYN.TFRT.IN,Data source: United Nations World Population Prospects
+IND,SL.TLF.CACT.FE.ZS,"The reference period covers the calendar year for the ILO-modeled estimates. In contrast, the corresponding national estimate series, based on the Periodic Labour Force Survey (PLFS), refers to the period from July to June. While the trends align in normal circumstances, in 2020, a significant economic and labor market impact (due to the COVID pandemic) contributed to the divergences between the PLFS-based and ILO-modeled estimates."
+IND,SP.POP.GROW,Data source: United Nations World Population Prospects
+IND,EG.ELC.ACCS.ZS,"2001 and 2011 represent census data, while the modeled estimates follow linear projections for the other years based on the overall country trend in household surveys."
+NGA,IT.CEL.SETS.P2,Nigerian Telecommunications Plc (NITEL). From 2002: Nigerian Communications Commission (NCC).
+NGA,MS.MIL.XPND.GD.ZS,1960-1980 SIPRI estimates.
+NGA,SP.DYN.LE00.IN,Data source: United Nations World Population Prospects
+NGA,MS.MIL.XPND.CD,1960-1980 SIPRI estimates.
+NGA,EG.FEC.RNEW.ZS,"Sources: World Energy Statistics and Balances, IEA (2014)"
+NGA,SP.POP.TOTL,Data source: United Nations World Population Prospects
+NGA,SP.POP.GROW,Data source: United Nations World Population Prospects
+NGA,SP.DYN.TFRT.IN,Data source: United Nations World Population Prospects
+NGA,IT.NET.USER.ZS,Nigerian Telecommunications Plc (NITEL). From 2002: Nigerian Communications Commission (NCC).
+NGA,SM.POP.NETM,Data source: United Nations World Population Prospects
+USA,EG.FEC.RNEW.ZS,"Sources: World Energy Statistics and Balances, IEA (2014)"
+USA,SP.POP.TOTL,Data source: U.S. Census Bureau
+USA,IT.CEL.SETS.P2,Federal Communications Commission (FCC).
+USA,SM.POP.NETM,Data source: United Nations World Population Prospects
+USA,IT.NET.USER.ZS,Federal Communications Commission (FCC).
+USA,SP.DYN.LE00.IN,Derived using male and female life expectancy
+USA,SG.GEN.PARL.ZS,The total refers to all voting members of the House.
+USA,SP.DYN.TFRT.IN,Data source: National Center for Health Statistics
+USA,SP.POP.GROW,Data source: U.S. Census Bureau
