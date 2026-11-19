@@ -6,6 +6,7 @@ Nothing is uploaded; pushing is a separate, explicit step.
 """
 import json
 import sys
+import os
 from pathlib import Path
 
 import matplotlib
@@ -14,7 +15,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[1] / "datasets"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+ROOT = DATA_ROOT
 OWNER = "teddybrown414"
 W, H, DPI = 16, 9, 100  # 1600x900 cover
 

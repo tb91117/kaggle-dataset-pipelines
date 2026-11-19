@@ -6,10 +6,13 @@ Output: datasets/us-flight-on-time/source/zips/  (complete files are skipped, so
 import sys
 import time
 import urllib.request
+import os
 from pathlib import Path
 
 BASE = "https://transtats.bts.gov/PREZIP/On_Time_Reporting_Carrier_On_Time_Performance_1987_present_{y}_{m}.zip"
-OUT = Path(__file__).resolve().parents[1] / "datasets" / "us-flight-on-time" / "source" / "zips"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+OUT = DATA_ROOT / "us-flight-on-time" / "source" / "zips"
 OUT.mkdir(parents=True, exist_ok=True)
 
 

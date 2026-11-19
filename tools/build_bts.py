@@ -6,11 +6,14 @@ Output: datasets/us-flight-on-time/v1/  flights_<year>.parquet, airports.csv, ca
 import io
 import json
 import zipfile
+import os
 from pathlib import Path
 
 import pandas as pd
 
-BASE = Path(__file__).resolve().parents[1] / "datasets" / "us-flight-on-time"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+BASE = DATA_ROOT / "us-flight-on-time"
 SRC, OUT = BASE / "source", BASE / "v1"
 OUT.mkdir(parents=True, exist_ok=True)
 SLUG, OWNER = "us-flight-delays-and-on-time-performance-2022-2026", "teddybrown414"
