@@ -6,11 +6,14 @@ Output: datasets/eia930-hourly-grid/source/  (re-running skips complete files, s
 import datetime as dt
 import time
 import urllib.request
+import os
 from pathlib import Path
 
 BASE = "https://www.eia.gov/electricity/gridmonitor/sixMonthFiles/"
 REF = "https://www.eia.gov/electricity/930-content/EIA930_Reference_Tables.xlsx"
-OUT = Path(__file__).resolve().parents[1] / "datasets" / "eia930-hourly-grid" / "source"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+OUT = DATA_ROOT / "eia930-hourly-grid" / "source"
 OUT.mkdir(parents=True, exist_ok=True)
 
 

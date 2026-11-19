@@ -12,7 +12,7 @@ image. Re-running a pipeline refreshes the dataset, so the Kaggle version stays 
 |---|---|---|
 | [US Flight Delays & On-Time Performance 2022–2026](https://www.kaggle.com/datasets/teddybrown414/us-flight-delays-and-on-time-performance-2022-2026) | BTS *Reporting Carrier On-Time Performance* | `fetch_bts.py` → `build_bts.py` |
 | [US Electric Grid Hourly Data (EIA-930)](https://www.kaggle.com/datasets/teddybrown414/us-electric-grid-hourly-eia-930) | EIA Hourly Electric Grid Monitor, six-month BALANCE files | `fetch_eia930.py` → `build_eia930.py` |
-| [World Development Indicators 1960–2025](https://www.kaggle.com/datasets/teddybrown414/world-bank-world-development-indicators) | World Bank WDI bulk CSV | `build_wdi.py` |
+| [World Development Indicators 1960–2025](https://www.kaggle.com/datasets/teddybrown414/world-bank-world-development-indicators) | World Bank WDI bulk CSV | `fetch_wdi.py` → `build_wdi.py` |
 | [San Francisco Street Tree Inventory](https://www.kaggle.com/datasets/teddybrown414/san-francisco-trees) | DataSF `tkzw-k3nq` (SODA API) | `fetch_sf_trees.py` → `build_v2.py trees` |
 
 ## Quick start
@@ -36,9 +36,14 @@ Some sources are large (the BTS files are several GB). `make_kaggle_pipeline.py`
 into one self-contained Kaggle script kernel, so the download happens on Kaggle's servers:
 
 ```bash
-python -I tools/make_kaggle_pipeline.py bts none     # none = build only; private|public also publish
-kaggle kernels push -p pipelines/us-flight-delays
+python -I tools/make_kaggle_pipeline.py wdi none     # bts | eia930 | wdi | trees; none = build only
+kaggle kernels push -p pipelines/world-bank-wdi-dataset-pipeline
 ```
+
+The kernel's output folder is the finished dataset: create or update the Kaggle dataset from it
+(dataset page → New version → Notebook output). For `eia930`, `wdi` and `trees` the repo's scripts are embedded
+verbatim and run as files with `KDP_DATA_ROOT` pointing at Kaggle's scratch disk, so a kernel run and a local run
+produce the same files.
 
 With `private` or `public`, the kernel reads a Kaggle Secret named `KAGGLE_API_TOKEN` (Notebook → Add-ons → Secrets).
 
@@ -47,6 +52,7 @@ With `private` or `public`, the kernel reads a Kaggle Secret named `KAGGLE_API_T
 | Script | What it does |
 |---|---|
 | `fetch_*.py` | Resumable downloaders with retries; complete files are skipped on re-run. |
+| `KDP_DATA_ROOT` | Environment variable: where sources are downloaded and datasets are built (default `./datasets`). |
 | `build_*.py` | Clean, type and document a source into a Kaggle-ready folder. |
 | `make_covers.py` | One distinct 2:1 cover design per dataset (no title text; Kaggle shows the title). |
 | `push_cover.py` | Uploads metadata + cover with a crop that covers the whole image (the kaggle CLI crops the top-left corner). |

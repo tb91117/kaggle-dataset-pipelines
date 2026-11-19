@@ -8,11 +8,14 @@ import csv
 import io
 import time
 import urllib.request
+import os
 from pathlib import Path
 
 BASE = "https://data.sf.gov/resource/tkzw-k3nq.csv"
 PAGE = 25_000
-OUT = Path(__file__).resolve().parents[1] / "datasets" / "san-francisco-trees" / "source"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+OUT = DATA_ROOT / "san-francisco-trees" / "source"
 PAGES = OUT / "pages"
 PAGES.mkdir(parents=True, exist_ok=True)
 

@@ -1,6 +1,6 @@
 """Assemble a self-contained Kaggle script kernel that fetches, builds and (optionally) publishes a dataset online.
 
-Usage:  python -I tools/make_kaggle_pipeline.py bts [none|private|public]
+Usage:  python -I tools/make_kaggle_pipeline.py bts|eia930|wdi|trees [none|private|public]
 Output: pipelines/<name>/pipeline.py + kernel-metadata.json (internet on). Push with `kaggle kernels push -p pipelines/<name>`.
 The kernel downloads on Kaggle's servers; only this small script leaves your machine.
 PUBLISH=none builds and prints a summary; private/public also creates or versions the dataset, using the
@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TOOLS = ROOT / "tools"
+KAGGLE_USER = "teddybrown414"
 
 PUBLISH_CODE = r'''
 # =============================================================== publish (Kaggle Secret KAGGLE_API_TOKEN)
@@ -48,6 +49,16 @@ else:
 '''
 
 
+DATA_ROOT_LINE = 'DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")'
+
+
+def must_replace(src: str, old: str, new: str) -> str:
+    """str.replace that fails loudly when the pattern is missing, so a source edit can't silently break a kernel."""
+    if old not in src:
+        raise ValueError(f"pattern not found: {old!r}")
+    return src.replace(old, new)
+
+
 def strip_main_guard(src: str) -> str:
     """Turn `if __name__ == "__main__":` blocks into top-level code (dedent one level)."""
     lines, out, inside = src.splitlines(), [], False
@@ -63,19 +74,18 @@ def bts(publish: str):
     fetch = (TOOLS / "fetch_bts.py").read_text(encoding="utf-8")
     build = (TOOLS / "build_bts.py").read_text(encoding="utf-8")
     covers = (TOOLS / "make_covers.py").read_text(encoding="utf-8")
-    fetch = fetch.replace('OUT = Path(__file__).resolve().parents[1] / "datasets" / "us-flight-on-time" / "source" / "zips"',
-                          'OUT = Path("/kaggle/temp/us-flight-on-time/source/zips")')
+    fetch = must_replace(fetch, DATA_ROOT_LINE, 'DATA_ROOT = Path("/kaggle/temp")')
     fetch = strip_main_guard(fetch).replace("sys.argv[1], sys.argv[2]", "MONTH_FROM, MONTH_TO").replace(
         "int(sys.argv[3]) if len(sys.argv) > 3 else 3", "4")
-    build = build.replace('BASE = Path(__file__).resolve().parents[1] / "datasets" / "us-flight-on-time"',
-                          'BASE = Path("/kaggle/temp/us-flight-on-time")')
-    build = build.replace('SRC, OUT = BASE / "source", BASE / "v1"', 'SRC, OUT = BASE / "source", Path("/kaggle/working/out")')
+    build = must_replace(build, DATA_ROOT_LINE, 'DATA_ROOT = Path("/kaggle/temp")')
+    build = must_replace(build, 'SRC, OUT = BASE / "source", BASE / "v1"', 'SRC, OUT = BASE / "source", Path("/kaggle/working/out")')
     build = re.sub(r"import runpy.*\nrunpy\.run_path\(.*\)\[\"flights\"\]\(\)", "flights()", build)
     # covers: helpers + flights(), with D pointing at the Kaggle layout
     head = covers.split("# ----------------------------------------------------------------- SF trees")[0]
-    head = head.replace('D = Path(__file__).resolve().parents[1] / "datasets"', 'D = None  # set below')
+    head = must_replace(head, DATA_ROOT_LINE, 'DATA_ROOT = Path("/kaggle/temp")')
+    head = must_replace(head, "D = DATA_ROOT", "D = None  # set below")
     fl = covers.split("# ----------------------------------------------------------------- flights: the route network")[1].split("JOBS = ")[0]
-    fl = fl.replace('out = D / "us-flight-on-time" / "v1"', "out = OUT")
+    fl = must_replace(fl, 'out = D / "us-flight-on-time" / "v1"', "out = OUT")
     lookups = '''
 # lookups (small) for the build
 import urllib.request as _ur
@@ -138,5 +148,73 @@ print("months", MONTH_FROM, "->", MONTH_TO, flush=True)
     print("wrote", d, len(src), "chars; PUBLISH =", publish)
 
 
+# ------------------------------------------------------------------ embedded pipelines
+# The tools are embedded verbatim and run as files, so the kernel behaves exactly like a local run.
+EMBEDDED = {
+    "eia930": {"title": "EIA-930 Grid Dataset Pipeline", "build_dir": "eia930-hourly-grid/v1",
+               "steps": [["fetch_eia930.py"], ["build_eia930.py"]]},
+    "wdi": {"title": "World Bank WDI Dataset Pipeline", "build_dir": "world-development-indicators/v1",
+            "steps": [["fetch_wdi.py"], ["build_wdi.py"]]},
+    "trees": {"title": "SF Street Trees Dataset Pipeline", "build_dir": "san-francisco-trees/v2",
+              "steps": [["fetch_sf_trees.py"], ["build_v2.py", "trees"]]},
+}
+
+EMBEDDED_RUN = r'''
+TOOLS, DATA, OUT = Path("/kaggle/temp/kdp_tools"), Path("/kaggle/temp/datasets"), Path("/kaggle/working")
+TOOLS.mkdir(parents=True, exist_ok=True)
+for _name, _src in SOURCES.items():
+    (TOOLS / _name).write_text(_src, encoding="utf-8")
+_env = {**os.environ, "KDP_DATA_ROOT": str(DATA)}
+for _step in STEPS:
+    print("==>", " ".join(_step), flush=True)
+    subprocess.run([sys.executable, "-I", str(TOOLS / _step[0]), *_step[1:]], check=True, env=_env)
+for _f in sorted((DATA / BUILD_DIR).iterdir()):   # the dataset is the notebook output: files at its root
+    if _f.is_file():
+        shutil.copy2(_f, OUT / _f.name)
+        print(f"output {_f.name:40s} {_f.stat().st_size / 1e6:9.1f} MB")
+DATASET_REF = json.loads((OUT / "dataset-metadata.json").read_text(encoding="utf-8"))["id"]
+print(open(OUT / "dataset-metadata.json", encoding="utf-8").read()[:3000])
+'''
+
+
+def slugify(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+
+
+def embedded(name: str, publish: str) -> Path:
+    spec = EMBEDDED[name]
+    tools = sorted({step[0] for step in spec["steps"]} | {"make_covers.py"})
+    sources = {t: (TOOLS / t).read_text(encoding="utf-8") for t in tools}
+    src = (f'''"""{spec["title"]}: fetch -> build -> cover -> (publish), run on Kaggle (internet on).
+Generated by tools/make_kaggle_pipeline.py from: {", ".join(tools)}. PUBLISH = none | private | public.
+"""
+import json, os, shutil, subprocess, sys
+from pathlib import Path
+import pandas as pd
+PUBLISH = "{publish}"
+BUILD_DIR = {spec["build_dir"]!r}
+STEPS = {spec["steps"]!r}
+if PUBLISH in ("private", "public"):   # fail fast: check the secret before the long download
+    from kaggle_secrets import UserSecretsClient
+    os.environ["KAGGLE_API_TOKEN"] = UserSecretsClient().get_secret("KAGGLE_API_TOKEN")
+    print("secret KAGGLE_API_TOKEN: ok", flush=True)
+SOURCES = {sources!r}
+''' + EMBEDDED_RUN + PUBLISH_CODE)
+    compile(src, "pipeline.py", "exec")
+    d = ROOT / "pipelines" / slugify(spec["title"])
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "pipeline.py").write_text(src, encoding="utf-8")
+    meta = {"id": f"{KAGGLE_USER}/{slugify(spec['title'])}", "title": spec["title"],
+            "code_file": "pipeline.py", "language": "python", "kernel_type": "script", "is_private": True,
+            "enable_gpu": False, "enable_tpu": False, "enable_internet": True,
+            "dataset_sources": [], "competition_sources": [], "kernel_sources": [], "model_sources": []}
+    (d / "kernel-metadata.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
+    print("wrote", d, len(src), "chars; PUBLISH =", publish)
+    return d
+
+
 if __name__ == "__main__":
-    {"bts": bts}[sys.argv[1]](sys.argv[2] if len(sys.argv) > 2 else "none")
+    name, publish = sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "none"
+    if publish not in ("none", "private", "public"):
+        raise SystemExit("PUBLISH must be none, private or public")
+    bts(publish) if name == "bts" else embedded(name, publish)
