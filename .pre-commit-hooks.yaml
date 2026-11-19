@@ -1,0 +1,6 @@
+- id: kaggle-dataset-lint
+  name: kaggle-dataset-lint
+  description: Lint Kaggle dataset-metadata.json files and their dataset folders before upload
+  entry: kaggle-dataset-lint
+  language: python
+  files: (^|/)(dataset-metadata|datapackage)\.json$

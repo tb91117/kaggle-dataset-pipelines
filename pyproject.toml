@@ -1,11 +1,22 @@
 [project]
 name = "kaggle-dataset-pipelines"
-version = "0.1.0"
-description = "Reproducible fetch, clean, document and publish pipelines for open-data datasets on Kaggle"
+version = "0.2.0"
+description = "Lint Kaggle dataset metadata before you upload, plus reproducible open-data pipelines for Kaggle datasets"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
-dependencies = [
+keywords = ["kaggle", "datasets", "lint", "metadata", "open-data", "data-pipeline"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: Console",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []  # the linter is standard library only
+
+[project.optional-dependencies]
+parquet = ["pyarrow>=14"]  # lets the linter check Parquet columns
+pipelines = [
     "pandas>=2.0",
     "numpy>=1.24",
     "pyarrow>=14",
@@ -13,19 +24,25 @@ dependencies = [
     "pillow>=10",
     "openpyxl>=3.1",
 ]
-
-[project.optional-dependencies]
 publish = ["kaggle>=2.2.5"]
 notebooks = ["nbformat>=5.9"]
 dev = ["ruff>=0.6", "pytest>=8"]
+
+[project.scripts]
+kaggle-dataset-lint = "kaggle_dataset_lint:main"
+
+[project.urls]
+Homepage = "https://github.com/tb91117/kaggle-dataset-pipelines"
+Issues = "https://github.com/tb91117/kaggle-dataset-pipelines/issues"
 
 [tool.ruff]
 line-length = 130
 target-version = "py310"
 
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = []  # a collection of scripts in tools/, not an importable package
+package-dir = { "" = "src" }
+py-modules = ["kaggle_dataset_lint"]  # the pipelines in tools/ are scripts, not part of the package
