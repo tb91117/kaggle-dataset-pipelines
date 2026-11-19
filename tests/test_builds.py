@@ -1,6 +1,7 @@
 """End-to-end builds on tiny real-data samples (tests/fixtures/data), checked against Kaggle's metadata rules."""
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -44,6 +45,7 @@ def test_build_is_kaggle_ready(built, name):
     assert 6 <= len(meta["title"]) <= 50, meta["title"]
     assert 20 <= len(meta["subtitle"]) <= 80, meta["subtitle"]
     assert meta["licenses"] and meta["keywords"] and len(meta["description"]) > 500
+    assert not re.findall(r"<[a-z_]+>", meta["description"]), "Kaggle strips <word> as an HTML tag"
     assert (out / "dataset-cover-image.png").stat().st_size > 10_000
     assert meta["resources"], "no files declared"
     for res in meta["resources"]:
