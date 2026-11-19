@@ -8,6 +8,7 @@ Nothing is uploaded; pushing is a separate, explicit step.
 """
 import json
 import re
+import os
 from pathlib import Path
 
 import matplotlib
@@ -17,7 +18,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-BASE = Path(__file__).resolve().parents[1] / "datasets" / "world-development-indicators"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+BASE = DATA_ROOT / "world-development-indicators"
 RAW, OUT = BASE / "source" / "raw", BASE / "v1"
 OUT.mkdir(parents=True, exist_ok=True)
 SLUG, OWNER = "world-bank-world-development-indicators", "teddybrown414"

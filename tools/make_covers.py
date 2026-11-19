@@ -4,6 +4,7 @@ Usage:  python -I tools/make_covers.py [trees|wdi|btc|intent ...]   (default: al
 Writes dataset-cover-image.png into each dataset's build folder; pushing is a separate step.
 """
 import sys
+import os
 from pathlib import Path
 
 import matplotlib
@@ -15,7 +16,9 @@ import pandas as pd
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.patches import FancyBboxPatch, Rectangle
 
-D = Path(__file__).resolve().parents[1] / "datasets"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+D = DATA_ROOT
 W, H, DPI = 16, 8, 100  # Kaggle cover is 2:1; the thumbnail is the centred square
 
 

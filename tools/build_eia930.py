@@ -6,12 +6,15 @@ Nothing is uploaded; pushing is a separate, explicit step.
 """
 import json
 import re
+import os
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-BASE = Path(__file__).resolve().parents[1] / "datasets" / "eia930-hourly-grid"
+# KDP_DATA_ROOT overrides where sources are downloaded and datasets are built (used by the Kaggle kernels)
+DATA_ROOT = Path(os.environ.get("KDP_DATA_ROOT") or Path(__file__).resolve().parents[1] / "datasets")
+BASE = DATA_ROOT / "eia930-hourly-grid"
 SRC, OUT = BASE / "source", BASE / "v1"
 OUT.mkdir(parents=True, exist_ok=True)
 SLUG, OWNER = "us-electric-grid-hourly-eia-930", "teddybrown414"
