@@ -6,7 +6,6 @@ Nothing is uploaded; pushing is a separate, explicit step.
 """
 import json
 import re
-import sys
 from pathlib import Path
 
 import numpy as np
