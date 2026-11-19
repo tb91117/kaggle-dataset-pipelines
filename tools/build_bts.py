@@ -5,11 +5,9 @@ Output: datasets/us-flight-on-time/v1/  flights_<year>.parquet, airports.csv, ca
 """
 import io
 import json
-import re
 import zipfile
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 
 BASE = Path(__file__).resolve().parents[1] / "datasets" / "us-flight-on-time"

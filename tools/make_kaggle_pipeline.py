@@ -117,7 +117,6 @@ if MONTH_TO is None:
     MONTH_TO = f"{_y}-{_m:02d}"
 print("months", MONTH_FROM, "->", MONTH_TO, flush=True)
 '''
-    fetch_main = fetch.split("for y, m in months(")[0] if "for y, m in months(" in fetch else fetch
     fetch_parts = fetch.split("from concurrent.futures import ThreadPoolExecutor")
     src = (header + "\n# =============================================================== fetch\n" + fetch_parts[0] + latest
            + "from concurrent.futures import ThreadPoolExecutor" + fetch_parts[1]
