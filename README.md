@@ -8,8 +8,8 @@
 
 ## kaggle-dataset-lint
 
-Kaggle accepts a `dataset-metadata.json` that is subtly wrong and then shows a broken dataset page. Three examples;
-the first two were found in published datasets:
+Kaggle accepts a `dataset-metadata.json` that is subtly wrong and then shows a broken dataset page. Four examples;
+all but the cover crop were found in published datasets:
 
 - **Column descriptions on the wrong columns.** Kaggle matches schema fields to columns *by position*, so two swapped
   fields shift the descriptions without any error.
@@ -17,6 +17,8 @@ the first two were found in published datasets:
   `ng__mw`.
 - **A cover that shows only its corner.** The Kaggle CLI always crops the top-left 560x280 pixels, whatever the image
   size.
+- **Garbled text from Windows.** The CLI reads `dataset-metadata.json` with the system encoding, so on most Windows
+  machines a `×` in a UTF-8 description reaches Kaggle as two other characters. Set `PYTHONUTF8=1` before uploading.
 
 ```bash
 pip install "git+https://github.com/tb91117/kaggle-dataset-pipelines"
@@ -42,7 +44,7 @@ my-dataset/dataset-metadata.json: warning: [subfolder-skipped] raw/ is skipped b
 | Level | Checks |
 |---|---|
 | **Error**: Kaggle rejects it, or the page comes out wrong | title 6-50 characters, subtitle 20-80, exactly one license, `id` is `owner/slug` (no `INSERT_..._HERE` placeholders), valid `expectedUpdateFrequency`, every declared file exists and is declared once, schema fields list every column in file order (CSV, TSV, Parquet), cover is .png/.jpg/.jpeg/.webp and at least 560x280 |
-| **Warning**: silent problems and incomplete pages | `<word>` placeholders Kaggle strips, covers the CLI crops to a corner, subfolders `kaggle datasets create/version` skips, files and columns without descriptions, missing subtitle, description, tags, sources, update frequency or cover image, slugs `kaggle datasets create` rejects |
+| **Warning**: silent problems and incomplete pages | `<word>` placeholders Kaggle strips, covers the CLI crops to a corner, subfolders `kaggle datasets create/version` skips, non-ASCII text the CLI would garble because it reads the file with the system encoding (cp1252 on most Windows machines), files and columns without descriptions, missing subtitle, description, tags, sources, update frequency or cover image, slugs `kaggle datasets create` rejects |
 | **Note**: worth a look, never fails | license names that aren't in Kaggle's documented ids, column types outside Kaggle's best-effort list |
 
 The rules come from the Kaggle CLI source and its
@@ -60,7 +62,7 @@ The rules come from the Kaggle CLI source and its
 
 ```yaml
 # GitHub Actions
-- run: pip install "git+https://github.com/tb91117/kaggle-dataset-pipelines@v0.2.0"
+- run: pip install "git+https://github.com/tb91117/kaggle-dataset-pipelines@v0.2.1"
 - run: kaggle-dataset-lint --format github data/my-dataset
 ```
 
@@ -68,7 +70,7 @@ The rules come from the Kaggle CLI source and its
 # .pre-commit-config.yaml
 repos:
   - repo: https://github.com/tb91117/kaggle-dataset-pipelines
-    rev: v0.2.0
+    rev: v0.2.1
     hooks:
       - id: kaggle-dataset-lint
 ```
