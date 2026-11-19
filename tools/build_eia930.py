@@ -195,7 +195,7 @@ Energy-source columns and the first month they have data (EIA added categories o
 - Lower-48 peak hourly demand in this data: **{peak_v / 1000:,.1f} GW at {peak_t:%Y-%m-%d %H:%M} UTC**.
 
 ## Source & license
-U.S. Energy Information Administration, Form EIA-930 "Hourly Electric Grid Monitor", six-month BALANCE files (https://www.eia.gov/electricity/gridmonitor/) and EIA-930 reference tables; downloaded {today:%Y-%m-%d}. EIA states: *"U.S. government publications are in the public domain and are not subject to copyright protection. You may use and/or distribute any of our data..."* and asks for an acknowledgment, e.g. **"Source: U.S. Energy Information Administration ({today:%b %Y})"**. Marked CC0 here as the closest Kaggle option to public domain. Not produced or endorsed by EIA. Build scripts: `fetch_eia930.py` / `build_eia930.py` by the dataset maintainer.
+U.S. Energy Information Administration, Form EIA-930 "Hourly Electric Grid Monitor", six-month BALANCE files (https://www.eia.gov/electricity/gridmonitor/) and EIA-930 reference tables; downloaded {today:%Y-%m-%d}. EIA states: *"U.S. government publications are in the public domain and are not subject to copyright protection. You may use and/or distribute any of our data..."* and asks for an acknowledgment, e.g. **"Source: U.S. Energy Information Administration ({today:%b %Y})"**. Marked CC0 here as the closest Kaggle option to public domain. Not produced or endorsed by EIA. Build scripts: `fetch_eia930.py` / `build_eia930.py` in [kaggle-dataset-pipelines](https://github.com/tb91117/kaggle-dataset-pipelines) (open source).
 """
 
 

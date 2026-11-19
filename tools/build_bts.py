@@ -173,7 +173,7 @@ late_by_airline = f.groupby("airline", observed=True).arr_delayed_15.mean().sort
 - `dest_state` and `origin_state` are where the airport is (e.g. DCA "Washington, DC" is in VA).
 
 ## Source & license
-U.S. Department of Transportation, Bureau of Transportation Statistics, "Reporting Carrier On-Time Performance (1987-present)", TranStats PREZIP monthly files (https://www.transtats.bts.gov/), with BTS lookup tables `L_UNIQUE_CARRIERS` and `L_AIRPORT_ID`. U.S. federal government work, public domain (17 U.S.C. 105). DOT's own Kaggle release of this data uses CC0. Airport coordinates from [OurAirports](https://ourairports.com/data/), whose data is released to the public domain. Not produced or endorsed by BTS. Build scripts: `fetch_bts.py` / `build_bts.py` by the dataset maintainer.
+U.S. Department of Transportation, Bureau of Transportation Statistics, "Reporting Carrier On-Time Performance (1987-present)", TranStats PREZIP monthly files (https://www.transtats.bts.gov/), with BTS lookup tables `L_UNIQUE_CARRIERS` and `L_AIRPORT_ID`. U.S. federal government work, public domain (17 U.S.C. 105). DOT's own Kaggle release of this data uses CC0. Airport coordinates from [OurAirports](https://ourairports.com/data/), whose data is released to the public domain. Not produced or endorsed by BTS. Build scripts: `fetch_bts.py` / `build_bts.py` in [kaggle-dataset-pipelines](https://github.com/tb91117/kaggle-dataset-pipelines) (open source).
 """
 
 

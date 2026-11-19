@@ -309,7 +309,7 @@ From profiling this snapshot:
 - Species labels include placeholders (`Tree(s) ::` on {(df['species'] == 'Tree(s) ::').sum():,} trees, `:: To Be Determine`), genus-only entries and a few spelling variants; {df['species'].isna().sum():,} trees have no species. Group or clean labels before diversity counts.
 
 ## Provenance & license
-Source: [San Francisco Street Tree Inventory](https://data.sf.gov/City-Infrastructure/San-Francisco-Street-Tree-Inventory/tkzw-k3nq), San Francisco Public Works via DataSF, downloaded through the SODA API (portal load of {pd.Timestamp(loaded_at):%Y-%m-%d}). License: [ODC Public Domain Dedication and License (PDDL) 1.0](http://opendatacommons.org/licenses/pddl/1.0/). Data courtesy of San Francisco Public Works. Cleaning: `fetch_sf_trees.py` / `build_v2.py` by the dataset maintainer.
+Source: [San Francisco Street Tree Inventory](https://data.sf.gov/City-Infrastructure/San-Francisco-Street-Tree-Inventory/tkzw-k3nq), San Francisco Public Works via DataSF, downloaded through the SODA API (portal load of {pd.Timestamp(loaded_at):%Y-%m-%d}). License: [ODC Public Domain Dedication and License (PDDL) 1.0](http://opendatacommons.org/licenses/pddl/1.0/). Data courtesy of San Francisco Public Works. Cleaning: `fetch_sf_trees.py` / `build_v2.py` in [kaggle-dataset-pipelines](https://github.com/tb91117/kaggle-dataset-pipelines) (open source).
 """,
         "licenses": [{"name": "PDDL"}],
         "keywords": ["geospatial analysis", "plants", "environment", "cities and urban areas"],
