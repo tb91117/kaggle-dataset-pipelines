@@ -156,6 +156,11 @@ def build_binance():
         ("tp", "Approximately the highest high over roughly the next 24 hours (~96-100 bars); 0 when signal = 0. Future information.", "number"),
         ("sl", "Approximately the lowest low over roughly the next 24 hours (~96-100 bars); 0 when signal = 0. Future information.", "number"),
     ]
+    # Kaggle matches column descriptions by position, so the schema must follow the file's column order
+    # (the source has MACD_hist before MACD_signal)
+    by_name = {c[0]: c for c in cols}
+    assert set(by_name) == set(df.columns), set(by_name) ^ set(df.columns)
+    cols = [by_name[c] for c in df.columns]
     write_meta(slug, {
         "title": "BTC/USDT 15-min Candles + Indicators 2017-2025",
         "subtitle": f"{len(df):,} Binance spot candles with MACD, RSI, Stochastic, ATR and labels",
