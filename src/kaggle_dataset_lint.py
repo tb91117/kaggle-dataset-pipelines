@@ -17,15 +17,17 @@ when pyarrow is installed.
 from __future__ import annotations
 
 import argparse
+import codecs
 import csv
 import json
+import locale
 import re
 import struct
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 METADATA_FILES = ("dataset-metadata.json", "datapackage.json")  # the CLI accepts both, in this order
 COVER_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp")
@@ -310,6 +312,24 @@ def _check_resources(r: _Report, folder: Path, meta: dict, check_files: bool):
                                        "--dir-mode zip or tar")
 
 
+def _check_encoding(r: _Report, raw: bytes):
+    """The Kaggle CLI opens dataset-metadata.json with the system default encoding, not UTF-8."""
+    if raw.isascii():
+        return
+    encoding = locale.getpreferredencoding(False)
+    try:
+        if codecs.lookup(encoding).name == "utf-8":
+            return
+    except LookupError:
+        pass
+    chars = sorted({c for c in raw.decode("utf-8", "replace") if ord(c) > 127})
+    shown = ", ".join(f"U+{ord(c):04X}" for c in chars[:5]) + (" ..." if len(chars) > 5 else "")
+    r.warning("upload-encoding", f"the file has non-ASCII characters ({shown}) but the Kaggle CLI reads it with this "
+                                 f"system's default encoding ({encoding}), so Kaggle shows them garbled or the upload "
+                                 "fails. Upload with PYTHONUTF8=1 set, or save the JSON with \\u escapes "
+                                 "(json.dump(..., ensure_ascii=True))")
+
+
 def lint(target: str | Path, check_files: bool = True) -> list[Finding]:
     """Lint a dataset folder, or the metadata file inside one. Returns every finding."""
     target = Path(target)
@@ -322,11 +342,13 @@ def lint(target: str | Path, check_files: bool = True) -> list[Finding]:
     if not meta_path.is_file():
         r.error("metadata-missing", "no dataset-metadata.json (create one with `kaggle datasets init -p FOLDER`)")
         return r.findings
+    raw = meta_path.read_bytes()
     try:
-        meta = json.loads(meta_path.read_text(encoding="utf-8-sig"))
+        meta = json.loads(raw.decode("utf-8-sig"))
     except (json.JSONDecodeError, UnicodeDecodeError) as e:
         r.error("metadata-invalid", f"not valid JSON: {e}")
         return r.findings
+    _check_encoding(r, raw)
     if not isinstance(meta, dict):
         r.error("metadata-invalid", "the metadata must be a JSON object")
         return r.findings
@@ -349,8 +371,13 @@ def main(argv: list[str] | None = None) -> int:
                    help="github prints GitHub Actions annotations")
     p.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     args = p.parse_args(argv)
+    for stream in (sys.stdout, sys.stderr):  # findings quote user text; never crash on a console that can't show it
+        try:
+            stream.reconfigure(errors="backslashreplace")
+        except (AttributeError, ValueError):
+            pass
 
-    ignore = {c.strip() for c in args.ignore.split(",") if c.strip()}
+    ignore ={c.strip() for c in args.ignore.split(",") if c.strip()}
     findings = [f for t in args.targets for f in lint(t, check_files=not args.no_files) if f.code not in ignore]
     def esc(s, prop=False):  # GitHub workflow-command escaping
         s = s.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")

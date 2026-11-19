@@ -206,3 +206,22 @@ def test_cli_exit_codes_ignore_strict_and_github_format(tmp_path, capsys):
     out = capsys.readouterr().out
     assert out.startswith("::error file=") and "title=title-length::" in out
     assert ":" not in out.split("file=", 1)[1].split(",title=", 1)[0]  # path is escaped for the annotation
+
+
+@pytest.mark.parametrize("encoding, escaped, expected", [
+    ("cp1252", False, ["upload-encoding"]),  # Windows: the CLI would garble the text
+    ("cp1252", True, []),                    # JSON escapes are plain ASCII, safe everywhere
+    ("UTF-8", False, []),                    # Linux and macOS, or PYTHONUTF8=1
+])
+def test_non_ascii_metadata_on_a_non_utf8_system(tmp_path, monkeypatch, encoding, escaped, expected):
+    import locale
+
+    folder = make_dataset(tmp_path)
+    meta = json.loads((folder / "dataset-metadata.json").read_text(encoding="utf-8"))
+    meta["description"] += " 144,606 trees " + chr(0xD7) + " 28 columns."
+    (folder / "dataset-metadata.json").write_text(json.dumps(meta, ensure_ascii=escaped), encoding="utf-8")
+    monkeypatch.setattr(locale, "getpreferredencoding", lambda do_setlocale=True: encoding)
+    findings = lint(folder)
+    assert codes(findings) == expected
+    if expected:
+        assert "U+00D7" in findings[0].message and "cp1252" in findings[0].message

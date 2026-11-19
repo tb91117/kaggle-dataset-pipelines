@@ -1,6 +1,6 @@
 [project]
 name = "kaggle-dataset-pipelines"
-version = "0.2.0"
+version = "0.2.1"
 description = "Lint Kaggle dataset metadata before you upload, plus reproducible open-data pipelines for Kaggle datasets"
 readme = "README.md"
 license = "MIT"

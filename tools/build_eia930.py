@@ -248,7 +248,7 @@ meta = {
     ],
 }
 assert 6 <= len(meta["title"]) <= 50 and 20 <= len(meta["subtitle"]) <= 80, (len(meta["title"]), len(meta["subtitle"]))
-(OUT / "dataset-metadata.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
+(OUT / "dataset-metadata.json").write_text(json.dumps(meta, indent=2, ensure_ascii=True), encoding="utf-8")  # escaped: the Kaggle CLI may not read it as UTF-8
 print("metadata written:", meta["title"], "|", meta["subtitle"])
 
 import runpy  # noqa: E402  (cover: distinct 2:1 design; push with tools/push_cover.py)
