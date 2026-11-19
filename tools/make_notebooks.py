@@ -23,7 +23,13 @@ def find_file(name):
 '''
 
 
+FOOTER = """md:---
+*The code that builds this dataset is open source: [kaggle-dataset-pipelines](https://github.com/tb91117/kaggle-dataset-pipelines). \
+It also has `kaggle-dataset-lint`, which checks a dataset's metadata before you upload it.*"""
+
+
 def build(slug, title, dataset, cells, private=False):
+    cells = [*cells, FOOTER]
     nb = nbf.v4.new_notebook()
     nb.metadata["kernelspec"] = {"name": "python3", "display_name": "Python 3", "language": "python"}
     nb.cells = [nbf.v4.new_markdown_cell(c[3:]) if c.startswith("md:") else nbf.v4.new_code_cell(c) for c in cells]
