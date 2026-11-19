@@ -35,7 +35,9 @@ def test_build_passes_the_linter(built, name):
     # covers are 1600x800 on purpose: tools/push_cover.py uploads them with a full-image crop
     problems = [f for f in lint(out) if f.level != "note" and f.code != "cover-cropped"]
     assert problems == [], "\n".join(f"{f.code}: {f.message}" for f in problems)
-    meta = json.loads((out / "dataset-metadata.json").read_text(encoding="utf-8"))
+    raw = (out / "dataset-metadata.json").read_bytes()
+    assert raw.isascii(), "write the metadata with ensure_ascii=True: the Kaggle CLI may not read it as UTF-8"
+    meta = json.loads(raw)
     assert len(meta["description"]) > 500 and meta["resources"]
 
 

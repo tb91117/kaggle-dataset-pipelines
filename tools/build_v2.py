@@ -33,7 +33,7 @@ def write_meta(slug: str, meta: dict) -> None:
     assert 20 <= len(sub) <= 80, f"subtitle length {len(sub)} must be 20-80"
     assert 6 <= len(meta["title"]) <= 50, f"title length {len(meta['title'])} must be 6-50"
     meta = {"id": f"{OWNER}/{slug}", **meta}
-    (out_dir(slug) / "dataset-metadata.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
+    (out_dir(slug) / "dataset-metadata.json").write_text(json.dumps(meta, indent=2, ensure_ascii=True), encoding="utf-8")  # escaped: the Kaggle CLI may not read it as UTF-8
 
 
 def cover_style(ax, fig, title, subtitle):
