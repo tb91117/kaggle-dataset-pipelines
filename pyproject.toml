@@ -22,3 +22,10 @@ dev = ["ruff>=0.6", "pytest>=8"]
 [tool.ruff]
 line-length = 130
 target-version = "py310"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []  # a collection of scripts in tools/, not an importable package
