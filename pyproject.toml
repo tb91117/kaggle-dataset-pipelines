@@ -1,0 +1,24 @@
+[project]
+name = "kaggle-dataset-pipelines"
+version = "0.1.0"
+description = "Reproducible fetch, clean, document and publish pipelines for open-data datasets on Kaggle"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "pyarrow>=14",
+    "matplotlib>=3.7",
+    "pillow>=10",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+publish = ["kaggle>=2.2.5"]
+notebooks = ["nbformat>=5.9"]
+dev = ["ruff>=0.6", "pytest>=8"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"
