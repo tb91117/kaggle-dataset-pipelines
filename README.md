@@ -3,8 +3,10 @@
 [![CI](https://github.com/tb91117/kaggle-dataset-pipelines/actions/workflows/ci.yml/badge.svg)](https://github.com/tb91117/kaggle-dataset-pipelines/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**Lint your Kaggle dataset before you upload it**, plus the open-data pipelines behind
-[four public Kaggle datasets](#datasets-built-with-this-repo).
+**Lint your Kaggle dataset before you upload it**, plus the build scripts behind
+[six public Kaggle datasets](#datasets-built-with-this-repo).
+
+![kaggle-dataset-lint finding a schema mismatch, a stripped placeholder, a cropped cover and a Windows encoding problem](docs/social-preview.png)
 
 ## kaggle-dataset-lint
 
@@ -90,6 +92,10 @@ tested on small real-data samples and must pass the linter.
 | [US Electric Grid Hourly Data (EIA-930)](https://www.kaggle.com/datasets/teddybrown414/us-electric-grid-hourly-eia-930) | EIA Hourly Electric Grid Monitor, six-month BALANCE files | `fetch_eia930.py` → `build_eia930.py` |
 | [World Development Indicators 1960–2025](https://www.kaggle.com/datasets/teddybrown414/world-bank-world-development-indicators) | World Bank WDI bulk CSV | `fetch_wdi.py` → `build_wdi.py` |
 | [San Francisco Street Tree Inventory](https://www.kaggle.com/datasets/teddybrown414/san-francisco-trees) | DataSF `tkzw-k3nq` (SODA API) | `fetch_sf_trees.py` → `build_v2.py trees` |
+| [BTC/USDT 15-min Candles + Indicators 2017–2025](https://www.kaggle.com/datasets/teddybrown414/binance-ohlc-with-indicators) | Binance public market-data API (spot BTCUSDT, 15-minute klines) | `build_v2.py binance` |
+| [Query Intent Routing for AI Assistants](https://www.kaggle.com/datasets/teddybrown414/data-for-classifying-intent-of-query) | Written by the dataset author for an assistant tool-routing prototype | `build_v2.py intent` |
+
+The last two are rebuilt from the author's own source files, so they have no fetch step.
 
 ### Quick start
 
