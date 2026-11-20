@@ -1,12 +1,12 @@
 # kaggle-dataset-pipelines
 
 [![CI](https://github.com/tb91117/kaggle-dataset-pipelines/actions/workflows/ci.yml/badge.svg)](https://github.com/tb91117/kaggle-dataset-pipelines/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tb91117/kaggle-dataset-pipelines/blob/main/LICENSE)
 
 **Lint your Kaggle dataset before you upload it**, plus the build scripts behind
 [six public Kaggle datasets](#datasets-built-with-this-repo).
 
-![kaggle-dataset-lint finding a schema mismatch, a stripped placeholder, a cropped cover and a Windows encoding problem](docs/social-preview.png)
+![kaggle-dataset-lint finding a schema mismatch, a stripped placeholder, a cropped cover and a Windows encoding problem](https://raw.githubusercontent.com/tb91117/kaggle-dataset-pipelines/main/docs/social-preview.png)
 
 ## kaggle-dataset-lint
 
@@ -23,12 +23,12 @@ all but the cover crop were found in published datasets:
   machines a `×` in a UTF-8 description reaches Kaggle as two other characters. Set `PYTHONUTF8=1` before uploading.
 
 ```bash
-pip install "git+https://github.com/tb91117/kaggle-dataset-pipelines"
+pip install kaggle-dataset-lint
 kaggle-dataset-lint path/to/my-dataset     # the folder you pass to `kaggle datasets create -p`
 ```
 
 No dependencies: it is a single standard-library file, so you can also just download
-[`src/kaggle_dataset_lint.py`](src/kaggle_dataset_lint.py) and run `python kaggle_dataset_lint.py my-dataset`.
+[`src/kaggle_dataset_lint.py`](https://github.com/tb91117/kaggle-dataset-pipelines/blob/main/src/kaggle_dataset_lint.py) and run `python kaggle_dataset_lint.py my-dataset`.
 Install `pyarrow` too if you want Parquet columns checked.
 
 ```text
@@ -64,7 +64,7 @@ The rules come from the Kaggle CLI source and its
 
 ```yaml
 # GitHub Actions
-- run: pip install "git+https://github.com/tb91117/kaggle-dataset-pipelines@v0.2.1"
+- run: pip install kaggle-dataset-lint==0.3.0
 - run: kaggle-dataset-lint --format github data/my-dataset
 ```
 
@@ -72,7 +72,7 @@ The rules come from the Kaggle CLI source and its
 # .pre-commit-config.yaml
 repos:
   - repo: https://github.com/tb91117/kaggle-dataset-pipelines
-    rev: v0.2.1
+    rev: v0.3.0
     hooks:
       - id: kaggle-dataset-lint
 ```
