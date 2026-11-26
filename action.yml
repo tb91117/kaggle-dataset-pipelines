@@ -46,7 +46,7 @@ runs:
         LINTER: ${{ github.action_path }}/src/kaggle_dataset_lint.py
       run: |
         # The linter is one standard-library Python file, so it runs on the runner's own Python: nothing is installed.
-        set -o pipefail   # no -u: macOS runners may run bash 3.2, where an empty array counts as unset
+        set +e -o pipefail   # +e: GitHub runs bash with -e, which would stop before the counts are written; no -u: macOS bash 3.2 treats an empty array as unset
         py=""
         for cand in python3 python; do
           if command -v "$cand" >/dev/null 2>&1 && "$cand" -c 'import sys; sys.exit(sys.version_info < (3, 10))' 2>/dev/null; then
