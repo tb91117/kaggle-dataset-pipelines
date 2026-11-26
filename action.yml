@@ -1,0 +1,104 @@
+name: Kaggle Dataset Lint
+description: Check Kaggle dataset-metadata.json files and dataset folders before upload, with annotations on the findings
+author: tb91117
+branding:
+  icon: check-square
+  color: blue
+
+inputs:
+  paths:
+    description: >-
+      Dataset folders or metadata files to check, one per line. Leave empty to check every folder in the
+      repository that has a dataset-metadata.json or datapackage.json.
+    required: false
+    default: ""
+  strict:
+    description: Fail on warnings as well as errors ("true" or "false").
+    required: false
+    default: "false"
+  no-files:
+    description: Check only the metadata, not the data files or the cover image ("true" or "false").
+    required: false
+    default: "false"
+  ignore:
+    description: Comma-separated finding codes to skip, for example cover-missing,keywords-missing.
+    required: false
+    default: ""
+
+outputs:
+  errors:
+    description: Number of errors found.
+    value: ${{ steps.lint.outputs.errors }}
+  warnings:
+    description: Number of warnings found.
+    value: ${{ steps.lint.outputs.warnings }}
+
+runs:
+  using: composite
+  steps:
+    - id: lint
+      shell: bash
+      env:
+        INPUT_PATHS: ${{ inputs.paths }}
+        INPUT_STRICT: ${{ inputs.strict }}
+        INPUT_NO_FILES: ${{ inputs.no-files }}
+        INPUT_IGNORE: ${{ inputs.ignore }}
+        LINTER: ${{ github.action_path }}/src/kaggle_dataset_lint.py
+      run: |
+        # The linter is one standard-library Python file, so it runs on the runner's own Python: nothing is installed.
+        set -o pipefail   # no -u: macOS runners may run bash 3.2, where an empty array counts as unset
+        py=""
+        for cand in python3 python; do
+          if command -v "$cand" >/dev/null 2>&1 && "$cand" -c 'import sys; sys.exit(sys.version_info < (3, 10))' 2>/dev/null; then
+            py="$cand"; break
+          fi
+        done
+        if [ -z "$py" ]; then
+          echo "::error title=kaggle-dataset-lint::needs Python 3.10 or newer on the runner; add actions/setup-python before this step"
+          exit 1
+        fi
+
+        targets=()
+        if [ -n "${INPUT_PATHS//[[:space:]]/}" ]; then
+          while IFS= read -r line; do
+            line="${line#"${line%%[![:space:]]*}"}"; line="${line%"${line##*[![:space:]]}"}"
+            [ -n "$line" ] && targets+=("$line")
+          done <<< "$INPUT_PATHS"
+        else
+          while IFS= read -r dir; do
+            [ -n "$dir" ] && targets+=("$dir")
+          done < <(find . \( -name .git -o -name node_modules -o -name .venv -o -name venv \) -prune -o \
+                        \( -name dataset-metadata.json -o -name datapackage.json \) -print \
+                   | sed -e 's|/[^/]*$||' -e 's|^\./||' -e 's|^\.$|.|' | sort -u)
+        fi
+        if [ ${#targets[@]} -eq 0 ]; then
+          echo "::warning title=kaggle-dataset-lint::no dataset-metadata.json or datapackage.json found; set the paths input"
+          echo "errors=0" >> "$GITHUB_OUTPUT"; echo "warnings=0" >> "$GITHUB_OUTPUT"
+          exit 0
+        fi
+
+        args=(--format github)
+        [ "$INPUT_STRICT" = "true" ] && args+=(--strict)
+        [ "$INPUT_NO_FILES" = "true" ] && args+=(--no-files)
+        [ -n "$INPUT_IGNORE" ] && args+=(--ignore "$INPUT_IGNORE")
+
+        out=$("$py" "$LINTER" "${args[@]}" "${targets[@]}")
+        status=$?
+        [ -n "$out" ] && printf '%s\n' "$out"
+        errors=$(printf '%s\n' "$out" | grep -c '^::error ' || true)
+        warnings=$(printf '%s\n' "$out" | grep -c '^::warning ' || true)
+        echo "errors=$errors" >> "$GITHUB_OUTPUT"
+        echo "warnings=$warnings" >> "$GITHUB_OUTPUT"
+        {
+          echo "### kaggle-dataset-lint"
+          echo
+          echo "$errors error(s), $warnings warning(s) in ${#targets[@]} dataset(s)."
+          if [ -n "$out" ]; then
+            echo
+            echo "| Level | Code | File | Message |"
+            echo "|---|---|---|---|"
+            printf '%s\n' "$out" | sed -e 's/|/\\|/g' | sed -n -E 's/^::(error|warning|notice) file=([^,]*),title=([^:]*)::(.*)$/| \1 | `\3` | \2 | \4 |/p' \
+              | sed -e 's/%2C/,/g' -e 's/%3A/:/g' -e 's/%0A/ /g' -e 's/%0D//g' -e 's/%25/%/g'
+          fi
+        } >> "$GITHUB_STEP_SUMMARY"
+        exit $status

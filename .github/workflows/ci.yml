@@ -25,3 +25,41 @@ jobs:
       - name: Linter installs as a command with no dependencies
         run: |
           python -m venv /tmp/bare && /tmp/bare/bin/pip install -q . && /tmp/bare/bin/kaggle-dataset-lint --version
+
+  action:
+    # The GitHub Action in action.yml, on the runners' own Python (no setup-python): a clean folder passes,
+    # a broken one fails with annotations, and the counts come out as outputs.
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clean dataset passes
+        id: good
+        uses: ./
+        with:
+          paths: tests/action/good
+      - name: Broken dataset fails
+        id: bad
+        continue-on-error: true
+        uses: ./
+        with:
+          paths: |
+            tests/action/bad
+            tests/action/good
+          ignore: cover-missing
+      - name: Strict mode fails on the warning
+        id: strict
+        continue-on-error: true
+        uses: ./
+        with:
+          paths: tests/action/good
+          strict: "true"
+      - name: Check outcomes and outputs
+        shell: bash
+        run: |
+          test "${{ steps.good.outputs.errors }}" = 0 && test "${{ steps.good.outputs.warnings }}" = 1
+          test "${{ steps.bad.outcome }}" = failure && test "${{ steps.bad.outputs.errors }}" = 3
+          test "${{ steps.strict.outcome }}" = failure

@@ -1,0 +1,6 @@
+{
+  "title": "INSERT_TITLE_HERE",
+  "id": "example/INSERT_SLUG_HERE",
+  "licenses": [{"name": "CC0-1.0"}],
+  "resources": [{"path": "data.csv", "schema": {"fields": [{"name": "value"}, {"name": "id"}]}}]
+}
