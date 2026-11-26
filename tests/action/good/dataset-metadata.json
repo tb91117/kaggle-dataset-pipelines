@@ -1,0 +1,20 @@
+{
+  "title": "Action Test Dataset",
+  "subtitle": "A tiny dataset that passes kaggle-dataset-lint",
+  "id": "example/action-test-dataset",
+  "description": "A two-row CSV used by this repository's CI to check that the GitHub Action passes a clean dataset folder. It is not real data and is never uploaded to Kaggle. Each row has an id and a value, both described in the schema below.",
+  "licenses": [{"name": "CC0-1.0"}],
+  "keywords": ["tabular"],
+  "userSpecifiedSources": "Written by hand for the test suite.",
+  "expectedUpdateFrequency": "never",
+  "resources": [
+    {
+      "path": "data.csv",
+      "description": "Two example rows.",
+      "schema": {"fields": [
+        {"name": "id", "type": "integer", "description": "Row number"},
+        {"name": "value", "type": "string", "description": "An example value"}
+      ]}
+    }
+  ]
+}

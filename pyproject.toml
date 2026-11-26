@@ -1,6 +1,6 @@
 [project]
 name = "kaggle-dataset-lint"
-version = "0.3.0"
+version = "0.4.0"
 description = "Lint Kaggle dataset metadata (dataset-metadata.json) before you upload"
 readme = "README.md"
 license = "MIT"

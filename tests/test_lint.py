@@ -208,6 +208,14 @@ def test_cli_exit_codes_ignore_strict_and_github_format(tmp_path, capsys):
     assert ":" not in out.split("file=", 1)[1].split(",title=", 1)[0]  # path is escaped for the annotation
 
 
+def test_github_annotations_use_repo_relative_forward_slash_paths(tmp_path, capsys, monkeypatch):
+    make_dataset(tmp_path, title="Tiny")
+    monkeypatch.chdir(tmp_path)
+    main(["./ds", "--format", "github"])
+    out = capsys.readouterr().out
+    assert "::error file=ds/dataset-metadata.json,title=title-length::" in out  # GitHub matches this to the file
+
+
 @pytest.mark.parametrize("encoding, escaped, expected", [
     ("cp1252", False, ["upload-encoding"]),  # Windows: the CLI would garble the text
     ("cp1252", True, []),                    # JSON escapes are plain ASCII, safe everywhere

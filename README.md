@@ -62,9 +62,28 @@ The rules come from the Kaggle CLI source and its
 
 ### In CI or pre-commit
 
+With the GitHub Action, findings show up as annotations on the metadata file and as a table in the job summary.
+It runs on the runner's own Python 3.10+ and installs nothing.
+
 ```yaml
-# GitHub Actions
-- run: pip install kaggle-dataset-lint==0.3.0
+# .github/workflows/kaggle-dataset-lint.yml
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: tb91117/kaggle-dataset-pipelines@v0
+        with:
+          paths: data/my-dataset        # optional: one per line; empty checks every dataset-metadata.json in the repo
+          strict: "false"               # optional: "true" fails on warnings too
+          ignore: cover-missing         # optional: finding codes to skip
+```
+
+The step's `errors` and `warnings` outputs hold the counts. Without the Action:
+
+```yaml
+- run: pip install kaggle-dataset-lint==0.4.0
 - run: kaggle-dataset-lint --format github data/my-dataset
 ```
 
@@ -72,7 +91,7 @@ The rules come from the Kaggle CLI source and its
 # .pre-commit-config.yaml
 repos:
   - repo: https://github.com/tb91117/kaggle-dataset-pipelines
-    rev: v0.3.0
+    rev: v0.4.0
     hooks:
       - id: kaggle-dataset-lint
 ```

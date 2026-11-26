@@ -27,7 +27,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 METADATA_FILES = ("dataset-metadata.json", "datapackage.json")  # the CLI accepts both, in this order
 COVER_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp")
@@ -386,7 +386,8 @@ def main(argv: list[str] | None = None) -> int:
     for f in findings:
         if args.format == "github":
             kind = {"error": "error", "warning": "warning"}.get(f.level, "notice")
-            print(f"::{kind} file={esc(f.path, True)},title={esc(f.code, True)}::{esc(f.message)}")
+            path = Path(f.path).as_posix().removeprefix("./")  # annotations need repo-relative paths with "/"
+            print(f"::{kind} file={esc(path, True)},title={esc(f.code, True)}::{esc(f.message)}")
         else:
             print(f"{f.path}: {f.level}: [{f.code}] {f.message}")
     errors = sum(f.level == "error" for f in findings)
